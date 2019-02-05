@@ -167,31 +167,6 @@
   </entry>
   
   <entry>
-    <title>golang-step1</title>
-    <link href="https://pcm9881.github.io/2018/10/10/golang-step1/"/>
-    <id>https://pcm9881.github.io/2018/10/10/golang-step1/</id>
-    <published>2018-10-10T06:29:57.000Z</published>
-    <updated>2018-10-18T08:17:41.164Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Go-프로그램-언어"><a href="#Go-프로그램-언어" class="headerlink" title="Go 프로그램 언어"></a>Go 프로그램 언어</h3><ol><li>golang 설명</li><li>golang 설치</li></ol><h3 id="Go-프로그래밍-언어란"><a href="#Go-프로그래밍-언어란" class="headerlink" title="Go 프로그래밍 언어란?"></a>Go 프로그래밍 언어란?</h3><h4 id="Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다"><a href="#Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다" class="headerlink" title="Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다."></a>Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다.</h4><p>Go 언어 정식 사이트 : <a href="https://golang.org/" target="_blank" rel="noopener">https://golang.org/</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;Go-프로그램-언어&quot;&gt;&lt;a href=&quot;#Go-프로그램-언어&quot; class=&quot;headerlink&quot; title=&quot;Go 프로그램 언어&quot;&gt;&lt;/a&gt;Go 프로그램 언어&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;golang 설명&lt;/li&gt;
-&lt;li&gt;golang 설치&lt;/li
-      
-    
-    </summary>
-    
-    
-      <category term="golang" scheme="https://pcm9881.github.io/tags/golang/"/>
-    
-  </entry>
-  
-  <entry>
     <title>golang-dep</title>
     <link href="https://pcm9881.github.io/2018/10/10/golang-dep/"/>
     <id>https://pcm9881.github.io/2018/10/10/golang-dep/</id>
@@ -214,6 +189,31 @@
       <category term="golang" scheme="https://pcm9881.github.io/tags/golang/"/>
     
       <category term="golang-dep" scheme="https://pcm9881.github.io/tags/golang-dep/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>golang-step1</title>
+    <link href="https://pcm9881.github.io/2018/10/10/golang-step1/"/>
+    <id>https://pcm9881.github.io/2018/10/10/golang-step1/</id>
+    <published>2018-10-10T06:29:57.000Z</published>
+    <updated>2018-10-18T08:17:41.164Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Go-프로그램-언어"><a href="#Go-프로그램-언어" class="headerlink" title="Go 프로그램 언어"></a>Go 프로그램 언어</h3><ol><li>golang 설명</li><li>golang 설치</li></ol><h3 id="Go-프로그래밍-언어란"><a href="#Go-프로그래밍-언어란" class="headerlink" title="Go 프로그래밍 언어란?"></a>Go 프로그래밍 언어란?</h3><h4 id="Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다"><a href="#Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다" class="headerlink" title="Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다."></a>Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다.</h4><p>Go 언어 정식 사이트 : <a href="https://golang.org/" target="_blank" rel="noopener">https://golang.org/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Go-프로그램-언어&quot;&gt;&lt;a href=&quot;#Go-프로그램-언어&quot; class=&quot;headerlink&quot; title=&quot;Go 프로그램 언어&quot;&gt;&lt;/a&gt;Go 프로그램 언어&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;golang 설명&lt;/li&gt;
+&lt;li&gt;golang 설치&lt;/li
+      
+    
+    </summary>
+    
+    
+      <category term="golang" scheme="https://pcm9881.github.io/tags/golang/"/>
     
   </entry>
   
