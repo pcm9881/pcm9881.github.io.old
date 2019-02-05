@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>linux-command-process</title>
+      <link href="/2018/12/06/linux-command-process/"/>
+      <url>/2018/12/06/linux-command-process/</url>
+      
+        <content type="html"><![CDATA[<h3 id="프로세스별-메모리-사용량-표시"><a href="#프로세스별-메모리-사용량-표시" class="headerlink" title="프로세스별 메모리 사용량 표시"></a>프로세스별 메모리 사용량 표시</h3><p>ps -eo user,pid,ppid,rss,size,vsize,pmem,pcpu,time,cmd –sort -rss | head -n 11</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>redis-cli</title>
+      <link href="/2018/11/28/redis-cli/"/>
+      <url>/2018/11/28/redis-cli/</url>
+      
+        <content type="html"><![CDATA[<p>redis-cli -h HOST_NAME -p PORT_NUMBER hgetall SESSION_ID</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> redis-cli </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>nodejs-test-mocha</title>
+      <link href="/2018/11/03/nodejs-test-mocha/"/>
+      <url>/2018/11/03/nodejs-test-mocha/</url>
+      
+        <content type="html"><![CDATA[<p>mocha 테스트 뼈대를 만들어주는 package</p><p>chai 테스트 문법 작성</p><p>puppeteer headles browser</p><ul><li>browser 지정가능</li><li></li></ul><p>test : node_modules/.bin/mocha test.js</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>google-developers-step1</title>
+      <link href="/2018/10/18/google-developers-step1/"/>
+      <url>/2018/10/18/google-developers-step1/</url>
+      
+        <content type="html"><![CDATA[<p>구글 개발자 도구 프로그램 관련 포스트 입니다.</p><h2 id="목차"><a href="#목차" class="headerlink" title="목차"></a>목차</h2><ol><li><a href="#pagespeed">구글 웹페이지 속도 측정</a></li></ol><h3 id="pagespeed"><a href="#pagespeed" class="headerlink" title="pagespeed"></a>pagespeed</h3><ol><li><p>구글 웹페이지 속도 측정<br>웹페이지 속도 측정을 도와주고 개선사항을 알려주는 도구</p><p><a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="noopener">PageSpeed Tools</a></p></li></ol><h3 id="google-chart"><a href="#google-chart" class="headerlink" title="google chart"></a>google chart</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> google </tag>
+            
+            <tag> google-developers </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Node.js 프로젝트 두번째</title>
+      <link href="/2018/10/13/nodejs-project-step2/"/>
+      <url>/2018/10/13/nodejs-project-step2/</url>
+      
+        <content type="html"><![CDATA[<h2 id="표기-설명"><a href="#표기-설명" class="headerlink" title="표기 설명"></a>표기 설명</h2><ol><li>설명1</li><li>설명2</li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> nodejs </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Node.js 프로젝트 첫번째</title>
+      <link href="/2018/10/13/nodejs-project-step1/"/>
+      <url>/2018/10/13/nodejs-project-step1/</url>
+      
+        <content type="html"><![CDATA[<p>본 포스트는 Node.js 프로젝트 가장 기본적인 단계로 한번이라도 개발 해보신분은 넘어가시면 됩니다. <code>Node.js</code>로 개발하는 프로젝트 첫번째 입니다. 처음 설치부터 프로젝트 생성까지 진행 하겠습니다. 각 단계는 개별로 내려받아서 진행 할 수 있게 하려고 합니다. 관련 GitHub 저장소 : <a href="https://github.com/pcm9881/nodejs-project-step1" target="_blank" rel="noopener">Node.js 프로젝트 첫번째</a></p><h2 id="목차"><a href="#목차" class="headerlink" title="목차"></a>목차</h2><ol><li><a href="#Node-Introduction">Node.js 소개</a></li><li><a href="#Node-Install">Node.js 설치</a></li><li>npm 소개</li><li>npm 설치</li><li>프로젝트 생성</li></ol><h3 id="Node-Introduction"><a href="#Node-Introduction" class="headerlink" title="Node Introduction"></a>Node Introduction</h3><ol><li>Node.js 소개<blockquote><p>Node는 비동기 이벤트 주도 JavaScript 런타임으로써 확장성 있는 네트워크 애플리케이션을 만들 수 있도록 설계되었습니다.</p></blockquote></li></ol><ul><li>참조 : <a href="https://nodejs.org/ko/" target="_blank" rel="noopener">Node.js 공식사이트(한국어)</a></li></ul><h3 id="Node-Install"><a href="#Node-Install" class="headerlink" title="Node Install"></a>Node Install</h3><h3 id="npm소개"><a href="#npm소개" class="headerlink" title="npm소개"></a>npm소개</h3><h3 id="npm설치"><a href="#npm설치" class="headerlink" title="npm설치"></a>npm설치</h3><h3 id="프로젝트생성"><a href="#프로젝트생성" class="headerlink" title="프로젝트생성"></a>프로젝트생성</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> nodejs </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>golang-step1</title>
+      <link href="/2018/10/10/golang-step1/"/>
+      <url>/2018/10/10/golang-step1/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Go-프로그램-언어"><a href="#Go-프로그램-언어" class="headerlink" title="Go 프로그램 언어"></a>Go 프로그램 언어</h3><ol><li>golang 설명</li><li>golang 설치</li></ol><h3 id="Go-프로그래밍-언어란"><a href="#Go-프로그래밍-언어란" class="headerlink" title="Go 프로그래밍 언어란?"></a>Go 프로그래밍 언어란?</h3><h4 id="Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다"><a href="#Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다" class="headerlink" title="Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다."></a>Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다.</h4><p>Go 언어 정식 사이트 : <a href="https://golang.org/" target="_blank" rel="noopener">https://golang.org/</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> golang </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>golang-dep</title>
+      <link href="/2018/10/10/golang-dep/"/>
+      <url>/2018/10/10/golang-dep/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Go-의존성-관리-툴-dep"><a href="#Go-의존성-관리-툴-dep" class="headerlink" title="Go 의존성 관리 툴 dep"></a>Go 의존성 관리 툴 dep</h3><ol><li>golang-dep 설명</li><li>golang-dep 설치</li></ol><h3 id="golang-dep란"><a href="#golang-dep란" class="headerlink" title="golang-dep란?"></a>golang-dep란?</h3><h4 id="go를-위한-위존성-관리-툴"><a href="#go를-위한-위존성-관리-툴" class="headerlink" title="go를 위한 위존성 관리 툴"></a>go를 위한 위존성 관리 툴</h4><p>golang dep git url : <a href="https://github.com/golang/dep" target="_blank" rel="noopener">https://github.com/golang/dep</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> golang </tag>
+            
+            <tag> golang-dep </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>nginx-step1</title>
+      <link href="/2018/09/28/nginx-step1/"/>
+      <url>/2018/09/28/nginx-step1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="nginx-웹-서버-소프트웨어"><a href="#nginx-웹-서버-소프트웨어" class="headerlink" title="nginx 웹 서버 소프트웨어"></a>nginx 웹 서버 소프트웨어</h2><ol><li>nginx 설명</li><li>nginx 설치</li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> nginx </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>jstl-step1</title>
+      <link href="/2018/09/20/jstl-step1/"/>
+      <url>/2018/09/20/jstl-step1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="JTSL"><a href="#JTSL" class="headerlink" title="JTSL"></a>JTSL</h2><ol><li>설명</li><li>선언</li></ol><h2 id="자바서버-페이지-표준-태그-라이브러리"><a href="#자바서버-페이지-표준-태그-라이브러리" class="headerlink" title="자바서버 페이지 표준 태그 라이브러리"></a>자바서버 페이지 표준 태그 라이브러리</h2><p>(JavaServer Pages Standard Tag Library)</p><h3 id="functions-fn"><a href="#functions-fn" class="headerlink" title="functions ( fn )"></a>functions ( fn )</h3><ul><li><p>선언</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;%@ taglib prefix=&quot;fn&quot; uri=&quot;http://java.sun.com/jsp/jstl/functions&quot; %&gt;</span><br></pre></td></tr></table></figure></li><li><p>사용</p></li></ul><p>글자자르기<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;c:set var=&quot;textValue&quot; value=&quot;abcd&quot; /&gt;</span><br><span class="line">&lt;c:set var=&quot;subStrValue&quot; value=&quot;$&#123;fn:substring(textValue,0,3)&#125;&quot; /&gt;</span><br><span class="line">$&#123;subStrValue&#125;</span><br></pre></td></tr></table></figure></p><h3 id="fmt"><a href="#fmt" class="headerlink" title="fmt"></a>fmt</h3><p>소수점 버리고 INT형으로 표기<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;fmt:parseNumber var=&quot;intValue&quot; integerOnly=&quot;true&quot; value=&quot;$&#123;100/10&#125;&quot;/&gt;</span><br><span class="line">$&#123;intValue&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> jstl </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>개발용어 정리 페이지 첫번째</title>
+      <link href="/2018/09/16/glossary-step1/"/>
+      <url>/2018/09/16/glossary-step1/</url>
+      
+        <content type="html"><![CDATA[<p>개발용어 정리 페이지 첫번째장입니다. 각 장당 5개 용어를 설명 하려고 합니다. 현재 페이지에서는 IIFE, SPA, runtime,</p><h2 id="목차"><a href="#목차" class="headerlink" title="목차"></a>목차</h2><ol><li><a href="#IIFE">IIFE</a></li><li><a href="#SPA">SPA</a></li><li><a href="#runtime">runtime</a></li><li><a href="#RESTFul">RESTFul</a></li><li></li></ol><h3 id="IIFE"><a href="#IIFE" class="headerlink" title="IIFE"></a>IIFE</h3><p>  IIFE (Immediately Invoked Function Expression)<br>  즉시 실행 함수 표현은 정의되자마자 즉시 실행되는 Javascript Function<br>  이는 Self-Executing Anonymous Function 으로 알려진 디자인 패턴이고 크게 두 부분으로 구성된다.<br>  첫 번째는 괄호((), Grouping Operator)로 둘러싸인 익명함수(Anonymous Function)</p><ul><li><p>예제 1</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(function () &#123; </span><br><span class="line">    var aName = &quot;pcm9881&quot;;</span><br><span class="line">&#125;)();</span><br><span class="line">// IIFE 내부에서 정의된 변수는 외부 범위에서 접근이 불가</span><br><span class="line">aName // throws &quot;Uncaught ReferenceError: aName is not defined&quot;</span><br></pre></td></tr></table></figure></li><li><p>예제 2</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var result = (function () &#123; </span><br><span class="line">  var name = &quot;pcm9881&quot;; </span><br><span class="line">  return name; </span><br><span class="line">&#125;)(); </span><br><span class="line">// 즉시 결과를 생성</span><br><span class="line">result; // &quot;pcm9881&quot;</span><br></pre></td></tr></table></figure><p>예제 2번을 보면 IIFE를 변수에 할당하면 IIFE 자체는 저장되지 않고, 함수가 실행된 결과만 저장</p></li><li><p>참조 : <a href="https://developer.mozilla.org/ko/docs/Glossary/IIFE" target="_blank" rel="noopener">MDN 웹 문서</a></p></li></ul><h3 id="SPA"><a href="#SPA" class="headerlink" title="SPA"></a>SPA</h3><p>  SPA (Single Page Applications) 싱글 페이지 애플리케이션</p><p>  서버로부터 완전한 새로운 페이지를 불러오지 않고 현재의</p><h3 id="runtime"><a href="#runtime" class="headerlink" title="runtime"></a>runtime</h3><p>  runtime  런타임</p><h3 id="RESTFul"><a href="#RESTFul" class="headerlink" title="RESTFul"></a>RESTFul</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> glossary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>git 명령어 정리</title>
+      <link href="/2018/08/28/git-command/"/>
+      <url>/2018/08/28/git-command/</url>
+      
+        <content type="html"><![CDATA[<h3 id="자주-사용하는-git-command-정리"><a href="#자주-사용하는-git-command-정리" class="headerlink" title="자주 사용하는 git command 정리"></a>자주 사용하는 git command 정리</h3><ol><li>git command 종류</li><li>사용 예제</li></ol><h3 id="Setup-and-Config-관련"><a href="#Setup-and-Config-관련" class="headerlink" title="Setup and Config 관련"></a>Setup and Config 관련</h3><h4 id="config"><a href="#config" class="headerlink" title="config"></a>config</h4><h5 id="config-전체-확인"><a href="#config-전체-확인" class="headerlink" title="config 전체 확인"></a>config 전체 확인</h5><p>git 설정내용 확인하는 명령어<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure></p><h5 id="config-local-셋팅"><a href="#config-local-셋팅" class="headerlink" title="config local 셋팅"></a>config local 셋팅</h5><p>git 현재 config 셋팅<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name &quot;name&quot;</span><br><span class="line">git config user.email &quot;email&quot;</span><br></pre></td></tr></table></figure></p><h5 id="config-global-셋팅"><a href="#config-global-셋팅" class="headerlink" title="config global 셋팅"></a>config global 셋팅</h5><p>git 전체 config 셋팅<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;name&quot;</span><br><span class="line">git config --global user.email &quot;email&quot;</span><br></pre></td></tr></table></figure></p><h3 id="Basic-Snapshotting-관련"><a href="#Basic-Snapshotting-관련" class="headerlink" title="Basic Snapshotting 관련"></a>Basic Snapshotting 관련</h3><h4 id="add"><a href="#add" class="headerlink" title="add"></a>add</h4><p>git 현재 commit 할 내용을 추가<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add &lt;file&gt;</span><br></pre></td></tr></table></figure></p><h4 id="git-commit"><a href="#git-commit" class="headerlink" title="git commit"></a>git commit</h4><h3 id="git-reset"><a href="#git-reset" class="headerlink" title="git reset"></a>git reset</h3><h3 id="git-merge"><a href="#git-merge" class="headerlink" title="git merge"></a>git merge</h3><h3 id="git-fetch"><a href="#git-fetch" class="headerlink" title="git fetch"></a>git fetch</h3><h3 id="git"><a href="#git" class="headerlink" title="git"></a>git</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> git-command </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo github-pages blog</title>
+      <link href="/2018/08/13/hexo-github-page-blog/"/>
+      <url>/2018/08/13/hexo-github-page-blog/</url>
+      
+        <content type="html"><![CDATA[<h2 id="hexo를-통해서-gitHub-pages-blog-만들기"><a href="#hexo를-통해서-gitHub-pages-blog-만들기" class="headerlink" title="hexo를 통해서 gitHub pages blog 만들기"></a>hexo를 통해서 gitHub pages blog 만들기</h2><ol><li>github 가입</li><li>hexo 설명</li><li>hexo 설치</li></ol><h3 id="GitHub-가입하기"><a href="#GitHub-가입하기" class="headerlink" title="GitHub 가입하기"></a>GitHub 가입하기</h3><h3 id="GitHub-가입하기-1"><a href="#GitHub-가입하기-1" class="headerlink" title="GitHub 가입하기"></a>GitHub 가입하기</h3><h3 id="GitHub-가입하기-2"><a href="#GitHub-가입하기-2" class="headerlink" title="GitHub 가입하기"></a>GitHub 가입하기</h3><h3 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h3><ul><li><a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a></li><li><a href="https://hexo.io/" target="_blank" rel="noopener">HEXO</a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> github-pages </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2018/08/13/hello-world/"/>
+      <url>/2018/08/13/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
