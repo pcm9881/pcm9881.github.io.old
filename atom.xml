@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pcm9881.github.io/"/>
-  <updated>2018-12-06T05:55:39.638Z</updated>
+  <updated>2019-02-05T08:27:39.774Z</updated>
   <id>https://pcm9881.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>gradle-step1</title>
+    <link href="https://pcm9881.github.io/2019/01/18/gradle-step1/"/>
+    <id>https://pcm9881.github.io/2019/01/18/gradle-step1/</id>
+    <published>2019-01-18T02:19:08.000Z</published>
+    <updated>2019-02-05T08:27:39.774Z</updated>
+    
+    <content type="html"><![CDATA[<p>그레이들</p><p><a href="https://gradle.org/" target="_blank" rel="noopener">Gradle</a></p><p>설치 페이지 : <a href="https://gradle.org/install/" target="_blank" rel="noopener">https://gradle.org/install/</a></p><h3 id="그레이들-스크립트-3가지-gradle-script"><a href="#그레이들-스크립트-3가지-gradle-script" class="headerlink" title="그레이들 스크립트 3가지 (gradle script)"></a>그레이들 스크립트 3가지 (gradle script)</h3><h4 id="초기화-스크립트-init-script"><a href="#초기화-스크립트-init-script" class="headerlink" title="초기화 스크립트 (init script)"></a>초기화 스크립트 (init script)</h4><p>Grandle 객체  </p><h4 id="설정-스크립트-settings-script"><a href="#설정-스크립트-settings-script" class="headerlink" title="설정 스크립트 (settings script)"></a>설정 스크립트 (settings script)</h4><p>Settings 객체</p><h4 id="빌드-스크립트-build-script"><a href="#빌드-스크립트-build-script" class="headerlink" title="빌드 스크립트 (build script)"></a>빌드 스크립트 (build script)</h4><p>Project 객체</p><h3 id="속성파일-gradle-properties"><a href="#속성파일-gradle-properties" class="headerlink" title="속성파일 (gradle.properties)"></a>속성파일 (gradle.properties)</h3><h3 id="환경-변수-명령어-옵션"><a href="#환경-변수-명령어-옵션" class="headerlink" title="환경 변수/ 명령어 옵션"></a>환경 변수/ 명령어 옵션</h3><h3 id="프로젝트-디렉터리-buildSrc"><a href="#프로젝트-디렉터리-buildSrc" class="headerlink" title="프로젝트 디렉터리 buildSrc"></a>프로젝트 디렉터리 buildSrc</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;그레이들&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gradle.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Gradle&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;설치 페이지 : &lt;a href=&quot;https://gradle.org/install/&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="gradle" scheme="https://pcm9881.github.io/tags/gradle/"/>
+    
+      <category term="build-tool" scheme="https://pcm9881.github.io/tags/build-tool/"/>
+    
+  </entry>
   
   <entry>
     <title>linux-command-process</title>
@@ -167,31 +194,6 @@
   </entry>
   
   <entry>
-    <title>golang-step1</title>
-    <link href="https://pcm9881.github.io/2018/10/10/golang-step1/"/>
-    <id>https://pcm9881.github.io/2018/10/10/golang-step1/</id>
-    <published>2018-10-10T06:29:57.000Z</published>
-    <updated>2018-10-18T08:17:41.164Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Go-프로그램-언어"><a href="#Go-프로그램-언어" class="headerlink" title="Go 프로그램 언어"></a>Go 프로그램 언어</h3><ol><li>golang 설명</li><li>golang 설치</li></ol><h3 id="Go-프로그래밍-언어란"><a href="#Go-프로그래밍-언어란" class="headerlink" title="Go 프로그래밍 언어란?"></a>Go 프로그래밍 언어란?</h3><h4 id="Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다"><a href="#Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다" class="headerlink" title="Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다."></a>Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다.</h4><p>Go 언어 정식 사이트 : <a href="https://golang.org/" target="_blank" rel="noopener">https://golang.org/</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;Go-프로그램-언어&quot;&gt;&lt;a href=&quot;#Go-프로그램-언어&quot; class=&quot;headerlink&quot; title=&quot;Go 프로그램 언어&quot;&gt;&lt;/a&gt;Go 프로그램 언어&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;golang 설명&lt;/li&gt;
-&lt;li&gt;golang 설치&lt;/li
-      
-    
-    </summary>
-    
-    
-      <category term="golang" scheme="https://pcm9881.github.io/tags/golang/"/>
-    
-  </entry>
-  
-  <entry>
     <title>golang-dep</title>
     <link href="https://pcm9881.github.io/2018/10/10/golang-dep/"/>
     <id>https://pcm9881.github.io/2018/10/10/golang-dep/</id>
@@ -214,6 +216,31 @@
       <category term="golang" scheme="https://pcm9881.github.io/tags/golang/"/>
     
       <category term="golang-dep" scheme="https://pcm9881.github.io/tags/golang-dep/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>golang-step1</title>
+    <link href="https://pcm9881.github.io/2018/10/10/golang-step1/"/>
+    <id>https://pcm9881.github.io/2018/10/10/golang-step1/</id>
+    <published>2018-10-10T06:29:57.000Z</published>
+    <updated>2018-10-18T08:17:41.164Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Go-프로그램-언어"><a href="#Go-프로그램-언어" class="headerlink" title="Go 프로그램 언어"></a>Go 프로그램 언어</h3><ol><li>golang 설명</li><li>golang 설치</li></ol><h3 id="Go-프로그래밍-언어란"><a href="#Go-프로그래밍-언어란" class="headerlink" title="Go 프로그래밍 언어란?"></a>Go 프로그래밍 언어란?</h3><h4 id="Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다"><a href="#Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다" class="headerlink" title="Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다."></a>Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다.</h4><p>Go 언어 정식 사이트 : <a href="https://golang.org/" target="_blank" rel="noopener">https://golang.org/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Go-프로그램-언어&quot;&gt;&lt;a href=&quot;#Go-프로그램-언어&quot; class=&quot;headerlink&quot; title=&quot;Go 프로그램 언어&quot;&gt;&lt;/a&gt;Go 프로그램 언어&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;golang 설명&lt;/li&gt;
+&lt;li&gt;golang 설치&lt;/li
+      
+    
+    </summary>
+    
+    
+      <category term="golang" scheme="https://pcm9881.github.io/tags/golang/"/>
     
   </entry>
   
