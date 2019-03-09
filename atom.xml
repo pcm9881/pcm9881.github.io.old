@@ -245,7 +245,7 @@
     <link href="https://pcm9881.github.io/2018/10/10/golang-step1/"/>
     <id>https://pcm9881.github.io/2018/10/10/golang-step1/</id>
     <published>2018-10-10T06:29:57.000Z</published>
-    <updated>2018-10-18T08:17:41.164Z</updated>
+    <updated>2019-03-09T16:15:00.877Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Go-프로그램-언어"><a href="#Go-프로그램-언어" class="headerlink" title="Go 프로그램 언어"></a>Go 프로그램 언어</h3><ol><li>golang 설명</li><li>golang 설치</li></ol><h3 id="Go-프로그래밍-언어란"><a href="#Go-프로그래밍-언어란" class="headerlink" title="Go 프로그래밍 언어란?"></a>Go 프로그래밍 언어란?</h3><h4 id="Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다"><a href="#Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다" class="headerlink" title="Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다."></a>Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다.</h4><p>Go 언어 정식 사이트 : <a href="https://golang.org/" target="_blank" rel="noopener">https://golang.org/</a></p>]]></content>
     
@@ -260,6 +260,8 @@
     
     </summary>
     
+      <category term="language - go" scheme="https://pcm9881.github.io/categories/language-go/"/>
+    
     
       <category term="golang" scheme="https://pcm9881.github.io/tags/golang/"/>
     
@@ -270,7 +272,7 @@
     <link href="https://pcm9881.github.io/2018/10/10/golang-dep/"/>
     <id>https://pcm9881.github.io/2018/10/10/golang-dep/</id>
     <published>2018-10-10T06:29:57.000Z</published>
-    <updated>2019-03-09T16:12:24.839Z</updated>
+    <updated>2019-03-09T16:14:46.792Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Go-의존성-관리-툴-dep"><a href="#Go-의존성-관리-툴-dep" class="headerlink" title="Go 의존성 관리 툴 dep"></a>Go 의존성 관리 툴 dep</h3><ol><li>golang-dep 설명</li><li>golang-dep 설치</li></ol><h3 id="golang-dep란"><a href="#golang-dep란" class="headerlink" title="golang-dep란?"></a>golang-dep란?</h3><h4 id="go를-위한-위존성-관리-툴"><a href="#go를-위한-위존성-관리-툴" class="headerlink" title="go를 위한 위존성 관리 툴"></a>go를 위한 위존성 관리 툴</h4><p>golang dep git url : <a href="https://github.com/golang/dep" target="_blank" rel="noopener">https://github.com/golang/dep</a></p>]]></content>
     
@@ -284,7 +286,7 @@
     
     </summary>
     
-      <category term="language" scheme="https://pcm9881.github.io/categories/language/"/>
+      <category term="language - go" scheme="https://pcm9881.github.io/categories/language-go/"/>
     
     
       <category term="golang" scheme="https://pcm9881.github.io/tags/golang/"/>
@@ -349,7 +351,7 @@
     <link href="https://pcm9881.github.io/2018/09/16/glossary-step1/"/>
     <id>https://pcm9881.github.io/2018/09/16/glossary-step1/</id>
     <published>2018-09-16T09:50:16.000Z</published>
-    <updated>2019-03-09T16:12:01.506Z</updated>
+    <updated>2019-03-09T16:14:35.901Z</updated>
     
     <content type="html"><![CDATA[<p>개발용어 정리 페이지 첫번째장입니다. 각 장당 5개 용어를 설명 하려고 합니다. 현재 페이지에서는 IIFE, SPA, runtime,</p><h2 id="목차"><a href="#목차" class="headerlink" title="목차"></a>목차</h2><ol><li><a href="#IIFE">IIFE</a></li><li><a href="#SPA">SPA</a></li><li><a href="#runtime">runtime</a></li><li><a href="#RESTFul">RESTFul</a></li><li></li></ol><h3 id="IIFE"><a href="#IIFE" class="headerlink" title="IIFE"></a>IIFE</h3><p>  IIFE (Immediately Invoked Function Expression)<br>  즉시 실행 함수 표현은 정의되자마자 즉시 실행되는 Javascript Function<br>  이는 Self-Executing Anonymous Function 으로 알려진 디자인 패턴이고 크게 두 부분으로 구성된다.<br>  첫 번째는 괄호((), Grouping Operator)로 둘러싸인 익명함수(Anonymous Function)</p><ul><li><p>예제 1</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(function () &#123; </span><br><span class="line">    var aName = &quot;pcm9881&quot;;</span><br><span class="line">&#125;)();</span><br><span class="line">// IIFE 내부에서 정의된 변수는 외부 범위에서 접근이 불가</span><br><span class="line">aName // throws &quot;Uncaught ReferenceError: aName is not defined&quot;</span><br></pre></td></tr></table></figure></li><li><p>예제 2</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var result = (function () &#123; </span><br><span class="line">  var name = &quot;pcm9881&quot;; </span><br><span class="line">  return name; </span><br><span class="line">&#125;)(); </span><br><span class="line">// 즉시 결과를 생성</span><br><span class="line">result; // &quot;pcm9881&quot;</span><br></pre></td></tr></table></figure><p>예제 2번을 보면 IIFE를 변수에 할당하면 IIFE 자체는 저장되지 않고, 함수가 실행된 결과만 저장</p></li><li><p>참조 : <a href="https://developer.mozilla.org/ko/docs/Glossary/IIFE" target="_blank" rel="noopener">MDN 웹 문서</a></p></li></ul><h3 id="SPA"><a href="#SPA" class="headerlink" title="SPA"></a>SPA</h3><p>  SPA (Single Page Applications) 싱글 페이지 애플리케이션</p><p>  서버로부터 완전한 새로운 페이지를 불러오지 않고 현재의</p><h3 id="runtime"><a href="#runtime" class="headerlink" title="runtime"></a>runtime</h3><p>  runtime  런타임</p><h3 id="RESTFul"><a href="#RESTFul" class="headerlink" title="RESTFul"></a>RESTFul</h3>]]></content>
     
@@ -375,7 +377,7 @@
     <link href="https://pcm9881.github.io/2018/08/28/git-command/"/>
     <id>https://pcm9881.github.io/2018/08/28/git-command/</id>
     <published>2018-08-28T00:37:21.000Z</published>
-    <updated>2019-03-09T16:10:15.689Z</updated>
+    <updated>2019-03-09T16:14:34.011Z</updated>
     
     <content type="html"><![CDATA[<h3 id="자주-사용하는-git-command-정리"><a href="#자주-사용하는-git-command-정리" class="headerlink" title="자주 사용하는 git command 정리"></a>자주 사용하는 git command 정리</h3><ol><li>git command 종류</li><li>사용 예제</li></ol><h3 id="Setup-and-Config-관련"><a href="#Setup-and-Config-관련" class="headerlink" title="Setup and Config 관련"></a>Setup and Config 관련</h3><h4 id="config"><a href="#config" class="headerlink" title="config"></a>config</h4><h5 id="config-전체-확인"><a href="#config-전체-확인" class="headerlink" title="config 전체 확인"></a>config 전체 확인</h5><p>git 설정내용 확인하는 명령어<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure></p><h5 id="config-local-셋팅"><a href="#config-local-셋팅" class="headerlink" title="config local 셋팅"></a>config local 셋팅</h5><p>git 현재 config 셋팅<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name &quot;name&quot;</span><br><span class="line">git config user.email &quot;email&quot;</span><br></pre></td></tr></table></figure></p><h5 id="config-global-셋팅"><a href="#config-global-셋팅" class="headerlink" title="config global 셋팅"></a>config global 셋팅</h5><p>git 전체 config 셋팅<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;name&quot;</span><br><span class="line">git config --global user.email &quot;email&quot;</span><br></pre></td></tr></table></figure></p><h3 id="Basic-Snapshotting-관련"><a href="#Basic-Snapshotting-관련" class="headerlink" title="Basic Snapshotting 관련"></a>Basic Snapshotting 관련</h3><h4 id="add"><a href="#add" class="headerlink" title="add"></a>add</h4><p>git 현재 commit 할 내용을 추가<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add &lt;file&gt;</span><br></pre></td></tr></table></figure></p><h4 id="git-commit"><a href="#git-commit" class="headerlink" title="git commit"></a>git commit</h4><h3 id="git-reset"><a href="#git-reset" class="headerlink" title="git reset"></a>git reset</h3><h3 id="git-merge"><a href="#git-merge" class="headerlink" title="git merge"></a>git merge</h3><h3 id="git-fetch"><a href="#git-fetch" class="headerlink" title="git fetch"></a>git fetch</h3><h3 id="git"><a href="#git" class="headerlink" title="git"></a>git</h3>]]></content>
     
@@ -388,9 +390,7 @@
     
     </summary>
     
-      <category term="devops" scheme="https://pcm9881.github.io/categories/devops/"/>
-    
-      <category term="git" scheme="https://pcm9881.github.io/categories/devops/git/"/>
+      <category term="devops - git" scheme="https://pcm9881.github.io/categories/devops-git/"/>
     
     
       <category term="git" scheme="https://pcm9881.github.io/tags/git/"/>
@@ -404,7 +404,7 @@
     <link href="https://pcm9881.github.io/2018/08/13/hexo-github-page-blog/"/>
     <id>https://pcm9881.github.io/2018/08/13/hexo-github-page-blog/</id>
     <published>2018-08-13T08:03:15.000Z</published>
-    <updated>2018-10-18T08:17:49.242Z</updated>
+    <updated>2019-03-09T16:16:24.060Z</updated>
     
     <content type="html"><![CDATA[<h2 id="hexo를-통해서-gitHub-pages-blog-만들기"><a href="#hexo를-통해서-gitHub-pages-blog-만들기" class="headerlink" title="hexo를 통해서 gitHub pages blog 만들기"></a>hexo를 통해서 gitHub pages blog 만들기</h2><ol><li>github 가입</li><li>hexo 설명</li><li>hexo 설치</li></ol><h3 id="GitHub-가입하기"><a href="#GitHub-가입하기" class="headerlink" title="GitHub 가입하기"></a>GitHub 가입하기</h3><h3 id="GitHub-가입하기-1"><a href="#GitHub-가입하기-1" class="headerlink" title="GitHub 가입하기"></a>GitHub 가입하기</h3><h3 id="GitHub-가입하기-2"><a href="#GitHub-가입하기-2" class="headerlink" title="GitHub 가입하기"></a>GitHub 가입하기</h3><h3 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h3><ul><li><a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a></li><li><a href="https://hexo.io/" target="_blank" rel="noopener">HEXO</a></li></ul>]]></content>
     
@@ -416,6 +416,8 @@
       
     
     </summary>
+    
+      <category term="blog-framework - hexo" scheme="https://pcm9881.github.io/categories/blog-framework-hexo/"/>
     
     
       <category term="hexo" scheme="https://pcm9881.github.io/tags/hexo/"/>
