@@ -46,7 +46,7 @@
     <link href="https://pcm9881.github.io/2019/03/04/postgrest/"/>
     <id>https://pcm9881.github.io/2019/03/04/postgrest/</id>
     <published>2019-03-04T06:01:42.000Z</published>
-    <updated>2019-03-04T06:02:17.564Z</updated>
+    <updated>2019-03-09T16:20:41.691Z</updated>
     
     <content type="html"><![CDATA[<p>count<br>select=count.*</p>]]></content>
     
@@ -59,6 +59,8 @@
       
     
     </summary>
+    
+      <category term="postgrest" scheme="https://pcm9881.github.io/categories/postgrest/"/>
     
     
   </entry>
@@ -116,7 +118,7 @@
     <link href="https://pcm9881.github.io/2018/11/28/redis-cli/"/>
     <id>https://pcm9881.github.io/2018/11/28/redis-cli/</id>
     <published>2018-11-28T02:58:34.000Z</published>
-    <updated>2018-11-28T05:54:32.005Z</updated>
+    <updated>2019-03-09T16:20:52.827Z</updated>
     
     <content type="html"><![CDATA[<p>redis-cli -h HOST_NAME -p PORT_NUMBER hgetall SESSION_ID</p>]]></content>
     
@@ -130,6 +132,8 @@
     
     </summary>
     
+      <category term="redis" scheme="https://pcm9881.github.io/categories/redis/"/>
+    
     
       <category term="redis-cli" scheme="https://pcm9881.github.io/tags/redis-cli/"/>
     
@@ -140,7 +144,7 @@
     <link href="https://pcm9881.github.io/2018/11/03/nodejs-test-mocha/"/>
     <id>https://pcm9881.github.io/2018/11/03/nodejs-test-mocha/</id>
     <published>2018-11-03T06:41:58.000Z</published>
-    <updated>2018-11-05T00:42:14.155Z</updated>
+    <updated>2019-03-09T16:22:31.063Z</updated>
     
     <content type="html"><![CDATA[<p>mocha 테스트 뼈대를 만들어주는 package</p><p>chai 테스트 문법 작성</p><p>puppeteer headles browser</p><ul><li>browser 지정가능</li><li></li></ul><p>test : node_modules/.bin/mocha test.js</p>]]></content>
     
@@ -159,6 +163,8 @@
       
     
     </summary>
+    
+      <category term="nodejs" scheme="https://pcm9881.github.io/categories/nodejs/"/>
     
     
   </entry>
@@ -195,7 +201,7 @@
     <link href="https://pcm9881.github.io/2018/10/13/nodejs-project-step2/"/>
     <id>https://pcm9881.github.io/2018/10/13/nodejs-project-step2/</id>
     <published>2018-10-13T06:52:58.000Z</published>
-    <updated>2018-10-18T12:30:28.205Z</updated>
+    <updated>2019-03-09T16:19:47.173Z</updated>
     
     <content type="html"><![CDATA[<h2 id="표기-설명"><a href="#표기-설명" class="headerlink" title="표기 설명"></a>표기 설명</h2><ol><li>설명1</li><li>설명2</li></ol>]]></content>
     
@@ -212,6 +218,8 @@
     
     </summary>
     
+      <category term="nodejs" scheme="https://pcm9881.github.io/categories/nodejs/"/>
+    
     
       <category term="nodejs" scheme="https://pcm9881.github.io/tags/nodejs/"/>
     
@@ -222,7 +230,7 @@
     <link href="https://pcm9881.github.io/2018/10/13/nodejs-project-step1/"/>
     <id>https://pcm9881.github.io/2018/10/13/nodejs-project-step1/</id>
     <published>2018-10-13T06:17:01.000Z</published>
-    <updated>2018-10-18T12:30:56.903Z</updated>
+    <updated>2019-03-09T16:19:40.422Z</updated>
     
     <content type="html"><![CDATA[<p>본 포스트는 Node.js 프로젝트 가장 기본적인 단계로 한번이라도 개발 해보신분은 넘어가시면 됩니다. <code>Node.js</code>로 개발하는 프로젝트 첫번째 입니다. 처음 설치부터 프로젝트 생성까지 진행 하겠습니다. 각 단계는 개별로 내려받아서 진행 할 수 있게 하려고 합니다. 관련 GitHub 저장소 : <a href="https://github.com/pcm9881/nodejs-project-step1" target="_blank" rel="noopener">Node.js 프로젝트 첫번째</a></p><h2 id="목차"><a href="#목차" class="headerlink" title="목차"></a>목차</h2><ol><li><a href="#Node-Introduction">Node.js 소개</a></li><li><a href="#Node-Install">Node.js 설치</a></li><li>npm 소개</li><li>npm 설치</li><li>프로젝트 생성</li></ol><h3 id="Node-Introduction"><a href="#Node-Introduction" class="headerlink" title="Node Introduction"></a>Node Introduction</h3><ol><li>Node.js 소개<blockquote><p>Node는 비동기 이벤트 주도 JavaScript 런타임으로써 확장성 있는 네트워크 애플리케이션을 만들 수 있도록 설계되었습니다.</p></blockquote></li></ol><ul><li>참조 : <a href="https://nodejs.org/ko/" target="_blank" rel="noopener">Node.js 공식사이트(한국어)</a></li></ul><h3 id="Node-Install"><a href="#Node-Install" class="headerlink" title="Node Install"></a>Node Install</h3><h3 id="npm소개"><a href="#npm소개" class="headerlink" title="npm소개"></a>npm소개</h3><h3 id="npm설치"><a href="#npm설치" class="headerlink" title="npm설치"></a>npm설치</h3><h3 id="프로젝트생성"><a href="#프로젝트생성" class="headerlink" title="프로젝트생성"></a>프로젝트생성</h3>]]></content>
     
@@ -235,8 +243,40 @@
     
     </summary>
     
+      <category term="nodejs" scheme="https://pcm9881.github.io/categories/nodejs/"/>
+    
     
       <category term="nodejs" scheme="https://pcm9881.github.io/tags/nodejs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>golang-dep</title>
+    <link href="https://pcm9881.github.io/2018/10/10/golang-dep/"/>
+    <id>https://pcm9881.github.io/2018/10/10/golang-dep/</id>
+    <published>2018-10-10T06:29:57.000Z</published>
+    <updated>2019-03-09T16:18:52.470Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Go-의존성-관리-툴-dep"><a href="#Go-의존성-관리-툴-dep" class="headerlink" title="Go 의존성 관리 툴 dep"></a>Go 의존성 관리 툴 dep</h3><ol><li>golang-dep 설명</li><li>golang-dep 설치</li></ol><h3 id="golang-dep란"><a href="#golang-dep란" class="headerlink" title="golang-dep란?"></a>golang-dep란?</h3><h4 id="go를-위한-위존성-관리-툴"><a href="#go를-위한-위존성-관리-툴" class="headerlink" title="go를 위한 위존성 관리 툴"></a>go를 위한 위존성 관리 툴</h4><p>golang dep git url : <a href="https://github.com/golang/dep" target="_blank" rel="noopener">https://github.com/golang/dep</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Go-의존성-관리-툴-dep&quot;&gt;&lt;a href=&quot;#Go-의존성-관리-툴-dep&quot; class=&quot;headerlink&quot; title=&quot;Go 의존성 관리 툴 dep&quot;&gt;&lt;/a&gt;Go 의존성 관리 툴 dep&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;golang-dep 설
+      
+    
+    </summary>
+    
+      <category term="language" scheme="https://pcm9881.github.io/categories/language/"/>
+    
+      <category term="go" scheme="https://pcm9881.github.io/categories/language/go/"/>
+    
+    
+      <category term="golang" scheme="https://pcm9881.github.io/tags/golang/"/>
+    
+      <category term="golang-dep" scheme="https://pcm9881.github.io/tags/golang-dep/"/>
     
   </entry>
   
@@ -245,7 +285,7 @@
     <link href="https://pcm9881.github.io/2018/10/10/golang-step1/"/>
     <id>https://pcm9881.github.io/2018/10/10/golang-step1/</id>
     <published>2018-10-10T06:29:57.000Z</published>
-    <updated>2019-03-09T16:15:00.877Z</updated>
+    <updated>2019-03-09T16:18:54.788Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Go-프로그램-언어"><a href="#Go-프로그램-언어" class="headerlink" title="Go 프로그램 언어"></a>Go 프로그램 언어</h3><ol><li>golang 설명</li><li>golang 설치</li></ol><h3 id="Go-프로그래밍-언어란"><a href="#Go-프로그래밍-언어란" class="headerlink" title="Go 프로그래밍 언어란?"></a>Go 프로그래밍 언어란?</h3><h4 id="Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다"><a href="#Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다" class="headerlink" title="Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다."></a>Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다.</h4><p>Go 언어 정식 사이트 : <a href="https://golang.org/" target="_blank" rel="noopener">https://golang.org/</a></p>]]></content>
     
@@ -260,38 +300,12 @@
     
     </summary>
     
-      <category term="language - go" scheme="https://pcm9881.github.io/categories/language-go/"/>
+      <category term="language" scheme="https://pcm9881.github.io/categories/language/"/>
+    
+      <category term="go" scheme="https://pcm9881.github.io/categories/language/go/"/>
     
     
       <category term="golang" scheme="https://pcm9881.github.io/tags/golang/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>golang-dep</title>
-    <link href="https://pcm9881.github.io/2018/10/10/golang-dep/"/>
-    <id>https://pcm9881.github.io/2018/10/10/golang-dep/</id>
-    <published>2018-10-10T06:29:57.000Z</published>
-    <updated>2019-03-09T16:14:46.792Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Go-의존성-관리-툴-dep"><a href="#Go-의존성-관리-툴-dep" class="headerlink" title="Go 의존성 관리 툴 dep"></a>Go 의존성 관리 툴 dep</h3><ol><li>golang-dep 설명</li><li>golang-dep 설치</li></ol><h3 id="golang-dep란"><a href="#golang-dep란" class="headerlink" title="golang-dep란?"></a>golang-dep란?</h3><h4 id="go를-위한-위존성-관리-툴"><a href="#go를-위한-위존성-관리-툴" class="headerlink" title="go를 위한 위존성 관리 툴"></a>go를 위한 위존성 관리 툴</h4><p>golang dep git url : <a href="https://github.com/golang/dep" target="_blank" rel="noopener">https://github.com/golang/dep</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;Go-의존성-관리-툴-dep&quot;&gt;&lt;a href=&quot;#Go-의존성-관리-툴-dep&quot; class=&quot;headerlink&quot; title=&quot;Go 의존성 관리 툴 dep&quot;&gt;&lt;/a&gt;Go 의존성 관리 툴 dep&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;golang-dep 설
-      
-    
-    </summary>
-    
-      <category term="language - go" scheme="https://pcm9881.github.io/categories/language-go/"/>
-    
-    
-      <category term="golang" scheme="https://pcm9881.github.io/tags/golang/"/>
-    
-      <category term="golang-dep" scheme="https://pcm9881.github.io/tags/golang-dep/"/>
     
   </entry>
   
@@ -377,7 +391,7 @@
     <link href="https://pcm9881.github.io/2018/08/28/git-command/"/>
     <id>https://pcm9881.github.io/2018/08/28/git-command/</id>
     <published>2018-08-28T00:37:21.000Z</published>
-    <updated>2019-03-09T16:14:34.011Z</updated>
+    <updated>2019-03-09T16:18:48.780Z</updated>
     
     <content type="html"><![CDATA[<h3 id="자주-사용하는-git-command-정리"><a href="#자주-사용하는-git-command-정리" class="headerlink" title="자주 사용하는 git command 정리"></a>자주 사용하는 git command 정리</h3><ol><li>git command 종류</li><li>사용 예제</li></ol><h3 id="Setup-and-Config-관련"><a href="#Setup-and-Config-관련" class="headerlink" title="Setup and Config 관련"></a>Setup and Config 관련</h3><h4 id="config"><a href="#config" class="headerlink" title="config"></a>config</h4><h5 id="config-전체-확인"><a href="#config-전체-확인" class="headerlink" title="config 전체 확인"></a>config 전체 확인</h5><p>git 설정내용 확인하는 명령어<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure></p><h5 id="config-local-셋팅"><a href="#config-local-셋팅" class="headerlink" title="config local 셋팅"></a>config local 셋팅</h5><p>git 현재 config 셋팅<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name &quot;name&quot;</span><br><span class="line">git config user.email &quot;email&quot;</span><br></pre></td></tr></table></figure></p><h5 id="config-global-셋팅"><a href="#config-global-셋팅" class="headerlink" title="config global 셋팅"></a>config global 셋팅</h5><p>git 전체 config 셋팅<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;name&quot;</span><br><span class="line">git config --global user.email &quot;email&quot;</span><br></pre></td></tr></table></figure></p><h3 id="Basic-Snapshotting-관련"><a href="#Basic-Snapshotting-관련" class="headerlink" title="Basic Snapshotting 관련"></a>Basic Snapshotting 관련</h3><h4 id="add"><a href="#add" class="headerlink" title="add"></a>add</h4><p>git 현재 commit 할 내용을 추가<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add &lt;file&gt;</span><br></pre></td></tr></table></figure></p><h4 id="git-commit"><a href="#git-commit" class="headerlink" title="git commit"></a>git commit</h4><h3 id="git-reset"><a href="#git-reset" class="headerlink" title="git reset"></a>git reset</h3><h3 id="git-merge"><a href="#git-merge" class="headerlink" title="git merge"></a>git merge</h3><h3 id="git-fetch"><a href="#git-fetch" class="headerlink" title="git fetch"></a>git fetch</h3><h3 id="git"><a href="#git" class="headerlink" title="git"></a>git</h3>]]></content>
     
@@ -390,7 +404,9 @@
     
     </summary>
     
-      <category term="devops - git" scheme="https://pcm9881.github.io/categories/devops-git/"/>
+      <category term="devops" scheme="https://pcm9881.github.io/categories/devops/"/>
+    
+      <category term="git" scheme="https://pcm9881.github.io/categories/devops/git/"/>
     
     
       <category term="git" scheme="https://pcm9881.github.io/tags/git/"/>
@@ -404,7 +420,7 @@
     <link href="https://pcm9881.github.io/2018/08/13/hexo-github-page-blog/"/>
     <id>https://pcm9881.github.io/2018/08/13/hexo-github-page-blog/</id>
     <published>2018-08-13T08:03:15.000Z</published>
-    <updated>2019-03-09T16:16:24.060Z</updated>
+    <updated>2019-03-09T16:18:57.449Z</updated>
     
     <content type="html"><![CDATA[<h2 id="hexo를-통해서-gitHub-pages-blog-만들기"><a href="#hexo를-통해서-gitHub-pages-blog-만들기" class="headerlink" title="hexo를 통해서 gitHub pages blog 만들기"></a>hexo를 통해서 gitHub pages blog 만들기</h2><ol><li>github 가입</li><li>hexo 설명</li><li>hexo 설치</li></ol><h3 id="GitHub-가입하기"><a href="#GitHub-가입하기" class="headerlink" title="GitHub 가입하기"></a>GitHub 가입하기</h3><h3 id="GitHub-가입하기-1"><a href="#GitHub-가입하기-1" class="headerlink" title="GitHub 가입하기"></a>GitHub 가입하기</h3><h3 id="GitHub-가입하기-2"><a href="#GitHub-가입하기-2" class="headerlink" title="GitHub 가입하기"></a>GitHub 가입하기</h3><h3 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h3><ul><li><a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a></li><li><a href="https://hexo.io/" target="_blank" rel="noopener">HEXO</a></li></ul>]]></content>
     
@@ -417,7 +433,9 @@
     
     </summary>
     
-      <category term="blog-framework - hexo" scheme="https://pcm9881.github.io/categories/blog-framework-hexo/"/>
+      <category term="blog-framework" scheme="https://pcm9881.github.io/categories/blog-framework/"/>
+    
+      <category term="hexo" scheme="https://pcm9881.github.io/categories/blog-framework/hexo/"/>
     
     
       <category term="hexo" scheme="https://pcm9881.github.io/tags/hexo/"/>

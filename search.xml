@@ -24,6 +24,12 @@
         <content type="html"><![CDATA[<p>count<br>select=count.*</p>]]></content>
       
       
+      <categories>
+          
+          <category> postgrest </category>
+          
+      </categories>
+      
       
     </entry>
     
@@ -71,6 +77,12 @@
         <content type="html"><![CDATA[<p>redis-cli -h HOST_NAME -p PORT_NUMBER hgetall SESSION_ID</p>]]></content>
       
       
+      <categories>
+          
+          <category> redis </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -89,6 +101,12 @@
       
         <content type="html"><![CDATA[<p>mocha 테스트 뼈대를 만들어주는 package</p><p>chai 테스트 문법 작성</p><p>puppeteer headles browser</p><ul><li>browser 지정가능</li><li></li></ul><p>test : node_modules/.bin/mocha test.js</p>]]></content>
       
+      
+      <categories>
+          
+          <category> nodejs </category>
+          
+      </categories>
       
       
     </entry>
@@ -124,6 +142,12 @@
         <content type="html"><![CDATA[<h2 id="표기-설명"><a href="#표기-설명" class="headerlink" title="표기 설명"></a>표기 설명</h2><ol><li>설명1</li><li>설명2</li></ol>]]></content>
       
       
+      <categories>
+          
+          <category> nodejs </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -143,35 +167,16 @@
         <content type="html"><![CDATA[<p>본 포스트는 Node.js 프로젝트 가장 기본적인 단계로 한번이라도 개발 해보신분은 넘어가시면 됩니다. <code>Node.js</code>로 개발하는 프로젝트 첫번째 입니다. 처음 설치부터 프로젝트 생성까지 진행 하겠습니다. 각 단계는 개별로 내려받아서 진행 할 수 있게 하려고 합니다. 관련 GitHub 저장소 : <a href="https://github.com/pcm9881/nodejs-project-step1" target="_blank" rel="noopener">Node.js 프로젝트 첫번째</a></p><h2 id="목차"><a href="#목차" class="headerlink" title="목차"></a>목차</h2><ol><li><a href="#Node-Introduction">Node.js 소개</a></li><li><a href="#Node-Install">Node.js 설치</a></li><li>npm 소개</li><li>npm 설치</li><li>프로젝트 생성</li></ol><h3 id="Node-Introduction"><a href="#Node-Introduction" class="headerlink" title="Node Introduction"></a>Node Introduction</h3><ol><li>Node.js 소개<blockquote><p>Node는 비동기 이벤트 주도 JavaScript 런타임으로써 확장성 있는 네트워크 애플리케이션을 만들 수 있도록 설계되었습니다.</p></blockquote></li></ol><ul><li>참조 : <a href="https://nodejs.org/ko/" target="_blank" rel="noopener">Node.js 공식사이트(한국어)</a></li></ul><h3 id="Node-Install"><a href="#Node-Install" class="headerlink" title="Node Install"></a>Node Install</h3><h3 id="npm소개"><a href="#npm소개" class="headerlink" title="npm소개"></a>npm소개</h3><h3 id="npm설치"><a href="#npm설치" class="headerlink" title="npm설치"></a>npm설치</h3><h3 id="프로젝트생성"><a href="#프로젝트생성" class="headerlink" title="프로젝트생성"></a>프로젝트생성</h3>]]></content>
       
       
-      
-        <tags>
-            
-            <tag> nodejs </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>golang-step1</title>
-      <link href="/2018/10/10/golang-step1/"/>
-      <url>/2018/10/10/golang-step1/</url>
-      
-        <content type="html"><![CDATA[<h3 id="Go-프로그램-언어"><a href="#Go-프로그램-언어" class="headerlink" title="Go 프로그램 언어"></a>Go 프로그램 언어</h3><ol><li>golang 설명</li><li>golang 설치</li></ol><h3 id="Go-프로그래밍-언어란"><a href="#Go-프로그래밍-언어란" class="headerlink" title="Go 프로그래밍 언어란?"></a>Go 프로그래밍 언어란?</h3><h4 id="Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다"><a href="#Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다" class="headerlink" title="Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다."></a>Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다.</h4><p>Go 언어 정식 사이트 : <a href="https://golang.org/" target="_blank" rel="noopener">https://golang.org/</a></p>]]></content>
-      
-      
       <categories>
           
-          <category> language - go </category>
+          <category> nodejs </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> golang </tag>
+            <tag> nodejs </tag>
             
         </tags>
       
@@ -189,7 +194,9 @@
       
       <categories>
           
-          <category> language - go </category>
+          <category> language </category>
+          
+          <category> go </category>
           
       </categories>
       
@@ -199,6 +206,33 @@
             <tag> golang </tag>
             
             <tag> golang-dep </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>golang-step1</title>
+      <link href="/2018/10/10/golang-step1/"/>
+      <url>/2018/10/10/golang-step1/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Go-프로그램-언어"><a href="#Go-프로그램-언어" class="headerlink" title="Go 프로그램 언어"></a>Go 프로그램 언어</h3><ol><li>golang 설명</li><li>golang 설치</li></ol><h3 id="Go-프로그래밍-언어란"><a href="#Go-프로그래밍-언어란" class="headerlink" title="Go 프로그래밍 언어란?"></a>Go 프로그래밍 언어란?</h3><h4 id="Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다"><a href="#Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다" class="headerlink" title="Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다."></a>Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다.</h4><p>Go 언어 정식 사이트 : <a href="https://golang.org/" target="_blank" rel="noopener">https://golang.org/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> language </category>
+          
+          <category> go </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> golang </tag>
             
         </tags>
       
@@ -279,7 +313,9 @@
       
       <categories>
           
-          <category> devops - git </category>
+          <category> devops </category>
+          
+          <category> git </category>
           
       </categories>
       
@@ -306,7 +342,9 @@
       
       <categories>
           
-          <category> blog-framework - hexo </category>
+          <category> blog-framework </category>
+          
+          <category> hexo </category>
           
       </categories>
       
