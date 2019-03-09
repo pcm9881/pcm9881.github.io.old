@@ -4,6 +4,32 @@
   
     
     <entry>
+      <title>virtualbox-install-ubuntu</title>
+      <link href="/2019/03/04/virtualbox-install-ubuntu/"/>
+      <url>/2019/03/04/virtualbox-install-ubuntu/</url>
+      
+        <content type="html"><![CDATA[<ol><li>VirtualBox 설치</li><li>Download Ubuntu ISO</li><li>BIOS 에서 Virtualization option 이 enabled 되어있는지 확인</li><li>VirtualBox 로 Ubuntu 설치 (설치방법은 검색하면 나옴)</li><li>필수 Ubuntu package 설치<br><code>sudo apt-get install build-essential</code></li><li>Ubuntu 띄워진 상태에서 메뉴의 Insert Guest Additions 클릭하여 설치</li><li>재부팅시 화면이 Full Screen 으로 돌아가는지 확인</li><li>VirtualBox 의 Setting 에서 Disk Size, CPU, RAM (memory size) 등 조정</li><li>VirtualBox 의 Setting 에서 Shared Clipboard, Drag &amp; Drop 을 bidirectional 으로 설정</li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>postgrest</title>
+      <link href="/2019/03/04/postgrest/"/>
+      <url>/2019/03/04/postgrest/</url>
+      
+        <content type="html"><![CDATA[<p>count<br>select=count.*</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>gradle-step1</title>
       <link href="/2019/01/18/gradle-step1/"/>
       <url>/2019/01/18/gradle-step1/</url>
@@ -129,6 +155,25 @@
     
     
     <entry>
+      <title>golang-step1</title>
+      <link href="/2018/10/10/golang-step1/"/>
+      <url>/2018/10/10/golang-step1/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Go-프로그램-언어"><a href="#Go-프로그램-언어" class="headerlink" title="Go 프로그램 언어"></a>Go 프로그램 언어</h3><ol><li>golang 설명</li><li>golang 설치</li></ol><h3 id="Go-프로그래밍-언어란"><a href="#Go-프로그래밍-언어란" class="headerlink" title="Go 프로그래밍 언어란?"></a>Go 프로그래밍 언어란?</h3><h4 id="Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다"><a href="#Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다" class="headerlink" title="Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다."></a>Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다.</h4><p>Go 언어 정식 사이트 : <a href="https://golang.org/" target="_blank" rel="noopener">https://golang.org/</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> golang </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>golang-dep</title>
       <link href="/2018/10/10/golang-dep/"/>
       <url>/2018/10/10/golang-dep/</url>
@@ -142,25 +187,6 @@
             <tag> golang </tag>
             
             <tag> golang-dep </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>golang-step1</title>
-      <link href="/2018/10/10/golang-step1/"/>
-      <url>/2018/10/10/golang-step1/</url>
-      
-        <content type="html"><![CDATA[<h3 id="Go-프로그램-언어"><a href="#Go-프로그램-언어" class="headerlink" title="Go 프로그램 언어"></a>Go 프로그램 언어</h3><ol><li>golang 설명</li><li>golang 설치</li></ol><h3 id="Go-프로그래밍-언어란"><a href="#Go-프로그래밍-언어란" class="headerlink" title="Go 프로그래밍 언어란?"></a>Go 프로그래밍 언어란?</h3><h4 id="Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다"><a href="#Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다" class="headerlink" title="Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다."></a>Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다.</h4><p>Go 언어 정식 사이트 : <a href="https://golang.org/" target="_blank" rel="noopener">https://golang.org/</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> golang </tag>
             
         </tags>
       

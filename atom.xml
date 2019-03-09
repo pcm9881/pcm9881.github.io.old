@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pcm9881.github.io/"/>
-  <updated>2019-02-05T08:27:39.774Z</updated>
+  <updated>2019-03-04T06:59:43.990Z</updated>
   <id>https://pcm9881.github.io/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>virtualbox-install-ubuntu</title>
+    <link href="https://pcm9881.github.io/2019/03/04/virtualbox-install-ubuntu/"/>
+    <id>https://pcm9881.github.io/2019/03/04/virtualbox-install-ubuntu/</id>
+    <published>2019-03-04T06:56:44.000Z</published>
+    <updated>2019-03-04T06:59:43.990Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>VirtualBox 설치</li><li>Download Ubuntu ISO</li><li>BIOS 에서 Virtualization option 이 enabled 되어있는지 확인</li><li>VirtualBox 로 Ubuntu 설치 (설치방법은 검색하면 나옴)</li><li>필수 Ubuntu package 설치<br><code>sudo apt-get install build-essential</code></li><li>Ubuntu 띄워진 상태에서 메뉴의 Insert Guest Additions 클릭하여 설치</li><li>재부팅시 화면이 Full Screen 으로 돌아가는지 확인</li><li>VirtualBox 의 Setting 에서 Disk Size, CPU, RAM (memory size) 등 조정</li><li>VirtualBox 의 Setting 에서 Shared Clipboard, Drag &amp; Drop 을 bidirectional 으로 설정</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;VirtualBox 설치&lt;/li&gt;
+&lt;li&gt;Download Ubuntu ISO&lt;/li&gt;
+&lt;li&gt;BIOS 에서 Virtualization option 이 enabled 되어있는지 확인&lt;/li&gt;
+&lt;li&gt;VirtualBox 로 Ubuntu 설
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>postgrest</title>
+    <link href="https://pcm9881.github.io/2019/03/04/postgrest/"/>
+    <id>https://pcm9881.github.io/2019/03/04/postgrest/</id>
+    <published>2019-03-04T06:01:42.000Z</published>
+    <updated>2019-03-04T06:02:17.564Z</updated>
+    
+    <content type="html"><![CDATA[<p>count<br>select=count.*</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;count&lt;br&gt;select=count.*&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>gradle-step1</title>
@@ -194,6 +241,31 @@
   </entry>
   
   <entry>
+    <title>golang-step1</title>
+    <link href="https://pcm9881.github.io/2018/10/10/golang-step1/"/>
+    <id>https://pcm9881.github.io/2018/10/10/golang-step1/</id>
+    <published>2018-10-10T06:29:57.000Z</published>
+    <updated>2018-10-18T08:17:41.164Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Go-프로그램-언어"><a href="#Go-프로그램-언어" class="headerlink" title="Go 프로그램 언어"></a>Go 프로그램 언어</h3><ol><li>golang 설명</li><li>golang 설치</li></ol><h3 id="Go-프로그래밍-언어란"><a href="#Go-프로그래밍-언어란" class="headerlink" title="Go 프로그래밍 언어란?"></a>Go 프로그래밍 언어란?</h3><h4 id="Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다"><a href="#Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다" class="headerlink" title="Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다."></a>Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다.</h4><p>Go 언어 정식 사이트 : <a href="https://golang.org/" target="_blank" rel="noopener">https://golang.org/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Go-프로그램-언어&quot;&gt;&lt;a href=&quot;#Go-프로그램-언어&quot; class=&quot;headerlink&quot; title=&quot;Go 프로그램 언어&quot;&gt;&lt;/a&gt;Go 프로그램 언어&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;golang 설명&lt;/li&gt;
+&lt;li&gt;golang 설치&lt;/li
+      
+    
+    </summary>
+    
+    
+      <category term="golang" scheme="https://pcm9881.github.io/tags/golang/"/>
+    
+  </entry>
+  
+  <entry>
     <title>golang-dep</title>
     <link href="https://pcm9881.github.io/2018/10/10/golang-dep/"/>
     <id>https://pcm9881.github.io/2018/10/10/golang-dep/</id>
@@ -216,31 +288,6 @@
       <category term="golang" scheme="https://pcm9881.github.io/tags/golang/"/>
     
       <category term="golang-dep" scheme="https://pcm9881.github.io/tags/golang-dep/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>golang-step1</title>
-    <link href="https://pcm9881.github.io/2018/10/10/golang-step1/"/>
-    <id>https://pcm9881.github.io/2018/10/10/golang-step1/</id>
-    <published>2018-10-10T06:29:57.000Z</published>
-    <updated>2018-10-18T08:17:41.164Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Go-프로그램-언어"><a href="#Go-프로그램-언어" class="headerlink" title="Go 프로그램 언어"></a>Go 프로그램 언어</h3><ol><li>golang 설명</li><li>golang 설치</li></ol><h3 id="Go-프로그래밍-언어란"><a href="#Go-프로그래밍-언어란" class="headerlink" title="Go 프로그래밍 언어란?"></a>Go 프로그래밍 언어란?</h3><h4 id="Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다"><a href="#Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다" class="headerlink" title="Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다."></a>Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다.</h4><p>Go 언어 정식 사이트 : <a href="https://golang.org/" target="_blank" rel="noopener">https://golang.org/</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;Go-프로그램-언어&quot;&gt;&lt;a href=&quot;#Go-프로그램-언어&quot; class=&quot;headerlink&quot; title=&quot;Go 프로그램 언어&quot;&gt;&lt;/a&gt;Go 프로그램 언어&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;golang 설명&lt;/li&gt;
-&lt;li&gt;golang 설치&lt;/li
-      
-    
-    </summary>
-    
-    
-      <category term="golang" scheme="https://pcm9881.github.io/tags/golang/"/>
     
   </entry>
   
