@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pcm9881.github.io/"/>
-  <updated>2019-03-04T06:59:43.990Z</updated>
+  <updated>2019-03-10T08:02:25.362Z</updated>
   <id>https://pcm9881.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://pcm9881.github.io/2019/03/04/virtualbox-install-ubuntu/"/>
     <id>https://pcm9881.github.io/2019/03/04/virtualbox-install-ubuntu/</id>
     <published>2019-03-04T06:56:44.000Z</published>
-    <updated>2019-03-04T06:59:43.990Z</updated>
+    <updated>2019-03-10T08:02:25.362Z</updated>
     
     <content type="html"><![CDATA[<ol><li>VirtualBox 설치</li><li>Download Ubuntu ISO</li><li>BIOS 에서 Virtualization option 이 enabled 되어있는지 확인</li><li>VirtualBox 로 Ubuntu 설치 (설치방법은 검색하면 나옴)</li><li>필수 Ubuntu package 설치<br><code>sudo apt-get install build-essential</code></li><li>Ubuntu 띄워진 상태에서 메뉴의 Insert Guest Additions 클릭하여 설치</li><li>재부팅시 화면이 Full Screen 으로 돌아가는지 확인</li><li>VirtualBox 의 Setting 에서 Disk Size, CPU, RAM (memory size) 등 조정</li><li>VirtualBox 의 Setting 에서 Shared Clipboard, Drag &amp; Drop 을 bidirectional 으로 설정</li></ol>]]></content>
     
@@ -38,6 +38,16 @@
     
     </summary>
     
+      <category term="os" scheme="https://pcm9881.github.io/categories/os/"/>
+    
+      <category term="linux" scheme="https://pcm9881.github.io/categories/os/linux/"/>
+    
+      <category term="ubuntu" scheme="https://pcm9881.github.io/categories/os/linux/ubuntu/"/>
+    
+    
+      <category term="virtualbox" scheme="https://pcm9881.github.io/tags/virtualbox/"/>
+    
+      <category term="ubuntu" scheme="https://pcm9881.github.io/tags/ubuntu/"/>
     
   </entry>
   
@@ -46,7 +56,7 @@
     <link href="https://pcm9881.github.io/2019/03/04/postgrest/"/>
     <id>https://pcm9881.github.io/2019/03/04/postgrest/</id>
     <published>2019-03-04T06:01:42.000Z</published>
-    <updated>2019-03-09T16:20:41.691Z</updated>
+    <updated>2019-03-10T08:02:37.457Z</updated>
     
     <content type="html"><![CDATA[<p>count<br>select=count.*</p>]]></content>
     
@@ -70,7 +80,7 @@
     <link href="https://pcm9881.github.io/2019/01/18/gradle-step1/"/>
     <id>https://pcm9881.github.io/2019/01/18/gradle-step1/</id>
     <published>2019-01-18T02:19:08.000Z</published>
-    <updated>2019-02-05T08:27:39.774Z</updated>
+    <updated>2019-03-10T07:36:51.493Z</updated>
     
     <content type="html"><![CDATA[<p>그레이들</p><p><a href="https://gradle.org/" target="_blank" rel="noopener">Gradle</a></p><p>설치 페이지 : <a href="https://gradle.org/install/" target="_blank" rel="noopener">https://gradle.org/install/</a></p><h3 id="그레이들-스크립트-3가지-gradle-script"><a href="#그레이들-스크립트-3가지-gradle-script" class="headerlink" title="그레이들 스크립트 3가지 (gradle script)"></a>그레이들 스크립트 3가지 (gradle script)</h3><h4 id="초기화-스크립트-init-script"><a href="#초기화-스크립트-init-script" class="headerlink" title="초기화 스크립트 (init script)"></a>초기화 스크립트 (init script)</h4><p>Grandle 객체  </p><h4 id="설정-스크립트-settings-script"><a href="#설정-스크립트-settings-script" class="headerlink" title="설정 스크립트 (settings script)"></a>설정 스크립트 (settings script)</h4><p>Settings 객체</p><h4 id="빌드-스크립트-build-script"><a href="#빌드-스크립트-build-script" class="headerlink" title="빌드 스크립트 (build script)"></a>빌드 스크립트 (build script)</h4><p>Project 객체</p><h3 id="속성파일-gradle-properties"><a href="#속성파일-gradle-properties" class="headerlink" title="속성파일 (gradle.properties)"></a>속성파일 (gradle.properties)</h3><h3 id="환경-변수-명령어-옵션"><a href="#환경-변수-명령어-옵션" class="headerlink" title="환경 변수/ 명령어 옵션"></a>환경 변수/ 명령어 옵션</h3><h3 id="프로젝트-디렉터리-buildSrc"><a href="#프로젝트-디렉터리-buildSrc" class="headerlink" title="프로젝트 디렉터리 buildSrc"></a>프로젝트 디렉터리 buildSrc</h3>]]></content>
     
@@ -85,6 +95,12 @@
     
     </summary>
     
+      <category term="language" scheme="https://pcm9881.github.io/categories/language/"/>
+    
+      <category term="java" scheme="https://pcm9881.github.io/categories/language/java/"/>
+    
+      <category term="gradle" scheme="https://pcm9881.github.io/categories/language/java/gradle/"/>
+    
     
       <category term="gradle" scheme="https://pcm9881.github.io/tags/gradle/"/>
     
@@ -97,7 +113,7 @@
     <link href="https://pcm9881.github.io/2018/12/06/linux-command-process/"/>
     <id>https://pcm9881.github.io/2018/12/06/linux-command-process/</id>
     <published>2018-12-06T05:49:01.000Z</published>
-    <updated>2018-12-06T05:55:39.638Z</updated>
+    <updated>2019-03-10T08:03:16.899Z</updated>
     
     <content type="html"><![CDATA[<h3 id="프로세스별-메모리-사용량-표시"><a href="#프로세스별-메모리-사용량-표시" class="headerlink" title="프로세스별 메모리 사용량 표시"></a>프로세스별 메모리 사용량 표시</h3><p>ps -eo user,pid,ppid,rss,size,vsize,pmem,pcpu,time,cmd –sort -rss | head -n 11</p>]]></content>
     
@@ -110,6 +126,12 @@
     
     </summary>
     
+      <category term="os" scheme="https://pcm9881.github.io/categories/os/"/>
+    
+      <category term="linux" scheme="https://pcm9881.github.io/categories/os/linux/"/>
+    
+      <category term="command" scheme="https://pcm9881.github.io/categories/os/linux/command/"/>
+    
     
   </entry>
   
@@ -118,7 +140,7 @@
     <link href="https://pcm9881.github.io/2018/11/28/redis-cli/"/>
     <id>https://pcm9881.github.io/2018/11/28/redis-cli/</id>
     <published>2018-11-28T02:58:34.000Z</published>
-    <updated>2019-03-09T16:20:52.827Z</updated>
+    <updated>2019-03-10T08:02:31.313Z</updated>
     
     <content type="html"><![CDATA[<p>redis-cli -h HOST_NAME -p PORT_NUMBER hgetall SESSION_ID</p>]]></content>
     
@@ -144,7 +166,7 @@
     <link href="https://pcm9881.github.io/2018/11/03/nodejs-test-mocha/"/>
     <id>https://pcm9881.github.io/2018/11/03/nodejs-test-mocha/</id>
     <published>2018-11-03T06:41:58.000Z</published>
-    <updated>2019-03-09T16:22:31.063Z</updated>
+    <updated>2019-03-10T08:02:43.533Z</updated>
     
     <content type="html"><![CDATA[<p>mocha 테스트 뼈대를 만들어주는 package</p><p>chai 테스트 문법 작성</p><p>puppeteer headles browser</p><ul><li>browser 지정가능</li><li></li></ul><p>test : node_modules/.bin/mocha test.js</p>]]></content>
     
@@ -174,7 +196,7 @@
     <link href="https://pcm9881.github.io/2018/10/18/google-developers-step1/"/>
     <id>https://pcm9881.github.io/2018/10/18/google-developers-step1/</id>
     <published>2018-10-18T12:47:31.000Z</published>
-    <updated>2018-11-01T13:10:02.363Z</updated>
+    <updated>2019-03-10T07:36:56.015Z</updated>
     
     <content type="html"><![CDATA[<p>구글 개발자 도구 프로그램 관련 포스트 입니다.</p><h2 id="목차"><a href="#목차" class="headerlink" title="목차"></a>목차</h2><ol><li><a href="#pagespeed">구글 웹페이지 속도 측정</a></li></ol><h3 id="pagespeed"><a href="#pagespeed" class="headerlink" title="pagespeed"></a>pagespeed</h3><ol><li><p>구글 웹페이지 속도 측정<br>웹페이지 속도 측정을 도와주고 개선사항을 알려주는 도구</p><p><a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="noopener">PageSpeed Tools</a></p></li></ol><h3 id="google-chart"><a href="#google-chart" class="headerlink" title="google chart"></a>google chart</h3>]]></content>
     
@@ -189,6 +211,10 @@
     
     </summary>
     
+      <category term="google" scheme="https://pcm9881.github.io/categories/google/"/>
+    
+      <category term="developers" scheme="https://pcm9881.github.io/categories/google/developers/"/>
+    
     
       <category term="google" scheme="https://pcm9881.github.io/tags/google/"/>
     
@@ -201,7 +227,7 @@
     <link href="https://pcm9881.github.io/2018/10/13/nodejs-project-step2/"/>
     <id>https://pcm9881.github.io/2018/10/13/nodejs-project-step2/</id>
     <published>2018-10-13T06:52:58.000Z</published>
-    <updated>2019-03-09T16:19:47.173Z</updated>
+    <updated>2019-03-10T08:02:48.936Z</updated>
     
     <content type="html"><![CDATA[<h2 id="표기-설명"><a href="#표기-설명" class="headerlink" title="표기 설명"></a>표기 설명</h2><ol><li>설명1</li><li>설명2</li></ol>]]></content>
     
@@ -230,7 +256,7 @@
     <link href="https://pcm9881.github.io/2018/10/13/nodejs-project-step1/"/>
     <id>https://pcm9881.github.io/2018/10/13/nodejs-project-step1/</id>
     <published>2018-10-13T06:17:01.000Z</published>
-    <updated>2019-03-09T16:19:40.422Z</updated>
+    <updated>2019-03-10T08:02:54.489Z</updated>
     
     <content type="html"><![CDATA[<p>본 포스트는 Node.js 프로젝트 가장 기본적인 단계로 한번이라도 개발 해보신분은 넘어가시면 됩니다. <code>Node.js</code>로 개발하는 프로젝트 첫번째 입니다. 처음 설치부터 프로젝트 생성까지 진행 하겠습니다. 각 단계는 개별로 내려받아서 진행 할 수 있게 하려고 합니다. 관련 GitHub 저장소 : <a href="https://github.com/pcm9881/nodejs-project-step1" target="_blank" rel="noopener">Node.js 프로젝트 첫번째</a></p><h2 id="목차"><a href="#목차" class="headerlink" title="목차"></a>목차</h2><ol><li><a href="#Node-Introduction">Node.js 소개</a></li><li><a href="#Node-Install">Node.js 설치</a></li><li>npm 소개</li><li>npm 설치</li><li>프로젝트 생성</li></ol><h3 id="Node-Introduction"><a href="#Node-Introduction" class="headerlink" title="Node Introduction"></a>Node Introduction</h3><ol><li>Node.js 소개<blockquote><p>Node는 비동기 이벤트 주도 JavaScript 런타임으로써 확장성 있는 네트워크 애플리케이션을 만들 수 있도록 설계되었습니다.</p></blockquote></li></ol><ul><li>참조 : <a href="https://nodejs.org/ko/" target="_blank" rel="noopener">Node.js 공식사이트(한국어)</a></li></ul><h3 id="Node-Install"><a href="#Node-Install" class="headerlink" title="Node Install"></a>Node Install</h3><h3 id="npm소개"><a href="#npm소개" class="headerlink" title="npm소개"></a>npm소개</h3><h3 id="npm설치"><a href="#npm설치" class="headerlink" title="npm설치"></a>npm설치</h3><h3 id="프로젝트생성"><a href="#프로젝트생성" class="headerlink" title="프로젝트생성"></a>프로젝트생성</h3>]]></content>
     
@@ -255,7 +281,7 @@
     <link href="https://pcm9881.github.io/2018/10/10/golang-dep/"/>
     <id>https://pcm9881.github.io/2018/10/10/golang-dep/</id>
     <published>2018-10-10T06:29:57.000Z</published>
-    <updated>2019-03-09T16:18:52.470Z</updated>
+    <updated>2019-03-10T07:46:36.935Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Go-의존성-관리-툴-dep"><a href="#Go-의존성-관리-툴-dep" class="headerlink" title="Go 의존성 관리 툴 dep"></a>Go 의존성 관리 툴 dep</h3><ol><li>golang-dep 설명</li><li>golang-dep 설치</li></ol><h3 id="golang-dep란"><a href="#golang-dep란" class="headerlink" title="golang-dep란?"></a>golang-dep란?</h3><h4 id="go를-위한-위존성-관리-툴"><a href="#go를-위한-위존성-관리-툴" class="headerlink" title="go를 위한 위존성 관리 툴"></a>go를 위한 위존성 관리 툴</h4><p>golang dep git url : <a href="https://github.com/golang/dep" target="_blank" rel="noopener">https://github.com/golang/dep</a></p>]]></content>
     
@@ -273,6 +299,8 @@
     
       <category term="go" scheme="https://pcm9881.github.io/categories/language/go/"/>
     
+      <category term="package-manager" scheme="https://pcm9881.github.io/categories/language/go/package-manager/"/>
+    
     
       <category term="golang" scheme="https://pcm9881.github.io/tags/golang/"/>
     
@@ -285,7 +313,7 @@
     <link href="https://pcm9881.github.io/2018/10/10/golang-step1/"/>
     <id>https://pcm9881.github.io/2018/10/10/golang-step1/</id>
     <published>2018-10-10T06:29:57.000Z</published>
-    <updated>2019-03-09T16:18:54.788Z</updated>
+    <updated>2019-03-10T07:46:41.595Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Go-프로그램-언어"><a href="#Go-프로그램-언어" class="headerlink" title="Go 프로그램 언어"></a>Go 프로그램 언어</h3><ol><li>golang 설명</li><li>golang 설치</li></ol><h3 id="Go-프로그래밍-언어란"><a href="#Go-프로그래밍-언어란" class="headerlink" title="Go 프로그래밍 언어란?"></a>Go 프로그래밍 언어란?</h3><h4 id="Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다"><a href="#Go-언어는-개발자들이-생산적으로-만들기-위한-오픈소스-언어이다" class="headerlink" title="Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다."></a>Go 언어는 개발자들이 생산적으로 만들기 위한 오픈소스 언어이다.</h4><p>Go 언어 정식 사이트 : <a href="https://golang.org/" target="_blank" rel="noopener">https://golang.org/</a></p>]]></content>
     
@@ -314,7 +342,7 @@
     <link href="https://pcm9881.github.io/2018/09/28/nginx-step1/"/>
     <id>https://pcm9881.github.io/2018/09/28/nginx-step1/</id>
     <published>2018-09-28T02:10:01.000Z</published>
-    <updated>2018-10-18T08:17:58.898Z</updated>
+    <updated>2019-03-10T08:03:01.870Z</updated>
     
     <content type="html"><![CDATA[<h2 id="nginx-웹-서버-소프트웨어"><a href="#nginx-웹-서버-소프트웨어" class="headerlink" title="nginx 웹 서버 소프트웨어"></a>nginx 웹 서버 소프트웨어</h2><ol><li>nginx 설명</li><li>nginx 설치</li></ol>]]></content>
     
@@ -328,6 +356,8 @@
     
     </summary>
     
+      <category term="nginx" scheme="https://pcm9881.github.io/categories/nginx/"/>
+    
     
       <category term="nginx" scheme="https://pcm9881.github.io/tags/nginx/"/>
     
@@ -338,7 +368,7 @@
     <link href="https://pcm9881.github.io/2018/09/20/jstl-step1/"/>
     <id>https://pcm9881.github.io/2018/09/20/jstl-step1/</id>
     <published>2018-09-20T05:25:15.000Z</published>
-    <updated>2018-10-18T08:18:37.082Z</updated>
+    <updated>2019-03-10T07:47:04.994Z</updated>
     
     <content type="html"><![CDATA[<h2 id="JTSL"><a href="#JTSL" class="headerlink" title="JTSL"></a>JTSL</h2><ol><li>설명</li><li>선언</li></ol><h2 id="자바서버-페이지-표준-태그-라이브러리"><a href="#자바서버-페이지-표준-태그-라이브러리" class="headerlink" title="자바서버 페이지 표준 태그 라이브러리"></a>자바서버 페이지 표준 태그 라이브러리</h2><p>(JavaServer Pages Standard Tag Library)</p><h3 id="functions-fn"><a href="#functions-fn" class="headerlink" title="functions ( fn )"></a>functions ( fn )</h3><ul><li><p>선언</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;%@ taglib prefix=&quot;fn&quot; uri=&quot;http://java.sun.com/jsp/jstl/functions&quot; %&gt;</span><br></pre></td></tr></table></figure></li><li><p>사용</p></li></ul><p>글자자르기<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;c:set var=&quot;textValue&quot; value=&quot;abcd&quot; /&gt;</span><br><span class="line">&lt;c:set var=&quot;subStrValue&quot; value=&quot;$&#123;fn:substring(textValue,0,3)&#125;&quot; /&gt;</span><br><span class="line">$&#123;subStrValue&#125;</span><br></pre></td></tr></table></figure></p><h3 id="fmt"><a href="#fmt" class="headerlink" title="fmt"></a>fmt</h3><p>소수점 버리고 INT형으로 표기<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;fmt:parseNumber var=&quot;intValue&quot; integerOnly=&quot;true&quot; value=&quot;$&#123;100/10&#125;&quot;/&gt;</span><br><span class="line">$&#123;intValue&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
     
@@ -355,6 +385,12 @@
     
     </summary>
     
+      <category term="language" scheme="https://pcm9881.github.io/categories/language/"/>
+    
+      <category term="java" scheme="https://pcm9881.github.io/categories/language/java/"/>
+    
+      <category term="jstl" scheme="https://pcm9881.github.io/categories/language/java/jstl/"/>
+    
     
       <category term="jstl" scheme="https://pcm9881.github.io/tags/jstl/"/>
     
@@ -365,7 +401,7 @@
     <link href="https://pcm9881.github.io/2018/09/16/glossary-step1/"/>
     <id>https://pcm9881.github.io/2018/09/16/glossary-step1/</id>
     <published>2018-09-16T09:50:16.000Z</published>
-    <updated>2019-03-09T16:14:35.901Z</updated>
+    <updated>2019-03-10T07:46:31.716Z</updated>
     
     <content type="html"><![CDATA[<p>개발용어 정리 페이지 첫번째장입니다. 각 장당 5개 용어를 설명 하려고 합니다. 현재 페이지에서는 IIFE, SPA, runtime,</p><h2 id="목차"><a href="#목차" class="headerlink" title="목차"></a>목차</h2><ol><li><a href="#IIFE">IIFE</a></li><li><a href="#SPA">SPA</a></li><li><a href="#runtime">runtime</a></li><li><a href="#RESTFul">RESTFul</a></li><li></li></ol><h3 id="IIFE"><a href="#IIFE" class="headerlink" title="IIFE"></a>IIFE</h3><p>  IIFE (Immediately Invoked Function Expression)<br>  즉시 실행 함수 표현은 정의되자마자 즉시 실행되는 Javascript Function<br>  이는 Self-Executing Anonymous Function 으로 알려진 디자인 패턴이고 크게 두 부분으로 구성된다.<br>  첫 번째는 괄호((), Grouping Operator)로 둘러싸인 익명함수(Anonymous Function)</p><ul><li><p>예제 1</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(function () &#123; </span><br><span class="line">    var aName = &quot;pcm9881&quot;;</span><br><span class="line">&#125;)();</span><br><span class="line">// IIFE 내부에서 정의된 변수는 외부 범위에서 접근이 불가</span><br><span class="line">aName // throws &quot;Uncaught ReferenceError: aName is not defined&quot;</span><br></pre></td></tr></table></figure></li><li><p>예제 2</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var result = (function () &#123; </span><br><span class="line">  var name = &quot;pcm9881&quot;; </span><br><span class="line">  return name; </span><br><span class="line">&#125;)(); </span><br><span class="line">// 즉시 결과를 생성</span><br><span class="line">result; // &quot;pcm9881&quot;</span><br></pre></td></tr></table></figure><p>예제 2번을 보면 IIFE를 변수에 할당하면 IIFE 자체는 저장되지 않고, 함수가 실행된 결과만 저장</p></li><li><p>참조 : <a href="https://developer.mozilla.org/ko/docs/Glossary/IIFE" target="_blank" rel="noopener">MDN 웹 문서</a></p></li></ul><h3 id="SPA"><a href="#SPA" class="headerlink" title="SPA"></a>SPA</h3><p>  SPA (Single Page Applications) 싱글 페이지 애플리케이션</p><p>  서버로부터 완전한 새로운 페이지를 불러오지 않고 현재의</p><h3 id="runtime"><a href="#runtime" class="headerlink" title="runtime"></a>runtime</h3><p>  runtime  런타임</p><h3 id="RESTFul"><a href="#RESTFul" class="headerlink" title="RESTFul"></a>RESTFul</h3>]]></content>
     
@@ -391,7 +427,7 @@
     <link href="https://pcm9881.github.io/2018/08/28/git-command/"/>
     <id>https://pcm9881.github.io/2018/08/28/git-command/</id>
     <published>2018-08-28T00:37:21.000Z</published>
-    <updated>2019-03-09T16:18:48.780Z</updated>
+    <updated>2019-03-10T07:46:23.639Z</updated>
     
     <content type="html"><![CDATA[<h3 id="자주-사용하는-git-command-정리"><a href="#자주-사용하는-git-command-정리" class="headerlink" title="자주 사용하는 git command 정리"></a>자주 사용하는 git command 정리</h3><ol><li>git command 종류</li><li>사용 예제</li></ol><h3 id="Setup-and-Config-관련"><a href="#Setup-and-Config-관련" class="headerlink" title="Setup and Config 관련"></a>Setup and Config 관련</h3><h4 id="config"><a href="#config" class="headerlink" title="config"></a>config</h4><h5 id="config-전체-확인"><a href="#config-전체-확인" class="headerlink" title="config 전체 확인"></a>config 전체 확인</h5><p>git 설정내용 확인하는 명령어<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure></p><h5 id="config-local-셋팅"><a href="#config-local-셋팅" class="headerlink" title="config local 셋팅"></a>config local 셋팅</h5><p>git 현재 config 셋팅<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name &quot;name&quot;</span><br><span class="line">git config user.email &quot;email&quot;</span><br></pre></td></tr></table></figure></p><h5 id="config-global-셋팅"><a href="#config-global-셋팅" class="headerlink" title="config global 셋팅"></a>config global 셋팅</h5><p>git 전체 config 셋팅<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;name&quot;</span><br><span class="line">git config --global user.email &quot;email&quot;</span><br></pre></td></tr></table></figure></p><h3 id="Basic-Snapshotting-관련"><a href="#Basic-Snapshotting-관련" class="headerlink" title="Basic Snapshotting 관련"></a>Basic Snapshotting 관련</h3><h4 id="add"><a href="#add" class="headerlink" title="add"></a>add</h4><p>git 현재 commit 할 내용을 추가<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add &lt;file&gt;</span><br></pre></td></tr></table></figure></p><h4 id="git-commit"><a href="#git-commit" class="headerlink" title="git commit"></a>git commit</h4><h3 id="git-reset"><a href="#git-reset" class="headerlink" title="git reset"></a>git reset</h3><h3 id="git-merge"><a href="#git-merge" class="headerlink" title="git merge"></a>git merge</h3><h3 id="git-fetch"><a href="#git-fetch" class="headerlink" title="git fetch"></a>git fetch</h3><h3 id="git"><a href="#git" class="headerlink" title="git"></a>git</h3>]]></content>
     
@@ -408,6 +444,8 @@
     
       <category term="git" scheme="https://pcm9881.github.io/categories/devops/git/"/>
     
+      <category term="command" scheme="https://pcm9881.github.io/categories/devops/git/command/"/>
+    
     
       <category term="git" scheme="https://pcm9881.github.io/tags/git/"/>
     
@@ -420,7 +458,7 @@
     <link href="https://pcm9881.github.io/2018/08/13/hexo-github-page-blog/"/>
     <id>https://pcm9881.github.io/2018/08/13/hexo-github-page-blog/</id>
     <published>2018-08-13T08:03:15.000Z</published>
-    <updated>2019-03-09T16:18:57.449Z</updated>
+    <updated>2019-03-10T07:46:51.289Z</updated>
     
     <content type="html"><![CDATA[<h2 id="hexo를-통해서-gitHub-pages-blog-만들기"><a href="#hexo를-통해서-gitHub-pages-blog-만들기" class="headerlink" title="hexo를 통해서 gitHub pages blog 만들기"></a>hexo를 통해서 gitHub pages blog 만들기</h2><ol><li>github 가입</li><li>hexo 설명</li><li>hexo 설치</li></ol><h3 id="GitHub-가입하기"><a href="#GitHub-가입하기" class="headerlink" title="GitHub 가입하기"></a>GitHub 가입하기</h3><h3 id="GitHub-가입하기-1"><a href="#GitHub-가입하기-1" class="headerlink" title="GitHub 가입하기"></a>GitHub 가입하기</h3><h3 id="GitHub-가입하기-2"><a href="#GitHub-가입하기-2" class="headerlink" title="GitHub 가입하기"></a>GitHub 가입하기</h3><h3 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h3><ul><li><a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a></li><li><a href="https://hexo.io/" target="_blank" rel="noopener">HEXO</a></li></ul>]]></content>
     
@@ -433,9 +471,7 @@
     
     </summary>
     
-      <category term="blog-framework" scheme="https://pcm9881.github.io/categories/blog-framework/"/>
-    
-      <category term="hexo" scheme="https://pcm9881.github.io/categories/blog-framework/hexo/"/>
+      <category term="hexo" scheme="https://pcm9881.github.io/categories/hexo/"/>
     
     
       <category term="hexo" scheme="https://pcm9881.github.io/tags/hexo/"/>

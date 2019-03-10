@@ -11,6 +11,24 @@
         <content type="html"><![CDATA[<ol><li>VirtualBox 설치</li><li>Download Ubuntu ISO</li><li>BIOS 에서 Virtualization option 이 enabled 되어있는지 확인</li><li>VirtualBox 로 Ubuntu 설치 (설치방법은 검색하면 나옴)</li><li>필수 Ubuntu package 설치<br><code>sudo apt-get install build-essential</code></li><li>Ubuntu 띄워진 상태에서 메뉴의 Insert Guest Additions 클릭하여 설치</li><li>재부팅시 화면이 Full Screen 으로 돌아가는지 확인</li><li>VirtualBox 의 Setting 에서 Disk Size, CPU, RAM (memory size) 등 조정</li><li>VirtualBox 의 Setting 에서 Shared Clipboard, Drag &amp; Drop 을 bidirectional 으로 설정</li></ol>]]></content>
       
       
+      <categories>
+          
+          <category> os </category>
+          
+          <category> linux </category>
+          
+          <category> ubuntu </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> virtualbox </tag>
+            
+            <tag> ubuntu </tag>
+            
+        </tags>
       
     </entry>
     
@@ -43,6 +61,16 @@
         <content type="html"><![CDATA[<p>그레이들</p><p><a href="https://gradle.org/" target="_blank" rel="noopener">Gradle</a></p><p>설치 페이지 : <a href="https://gradle.org/install/" target="_blank" rel="noopener">https://gradle.org/install/</a></p><h3 id="그레이들-스크립트-3가지-gradle-script"><a href="#그레이들-스크립트-3가지-gradle-script" class="headerlink" title="그레이들 스크립트 3가지 (gradle script)"></a>그레이들 스크립트 3가지 (gradle script)</h3><h4 id="초기화-스크립트-init-script"><a href="#초기화-스크립트-init-script" class="headerlink" title="초기화 스크립트 (init script)"></a>초기화 스크립트 (init script)</h4><p>Grandle 객체  </p><h4 id="설정-스크립트-settings-script"><a href="#설정-스크립트-settings-script" class="headerlink" title="설정 스크립트 (settings script)"></a>설정 스크립트 (settings script)</h4><p>Settings 객체</p><h4 id="빌드-스크립트-build-script"><a href="#빌드-스크립트-build-script" class="headerlink" title="빌드 스크립트 (build script)"></a>빌드 스크립트 (build script)</h4><p>Project 객체</p><h3 id="속성파일-gradle-properties"><a href="#속성파일-gradle-properties" class="headerlink" title="속성파일 (gradle.properties)"></a>속성파일 (gradle.properties)</h3><h3 id="환경-변수-명령어-옵션"><a href="#환경-변수-명령어-옵션" class="headerlink" title="환경 변수/ 명령어 옵션"></a>환경 변수/ 명령어 옵션</h3><h3 id="프로젝트-디렉터리-buildSrc"><a href="#프로젝트-디렉터리-buildSrc" class="headerlink" title="프로젝트 디렉터리 buildSrc"></a>프로젝트 디렉터리 buildSrc</h3>]]></content>
       
       
+      <categories>
+          
+          <category> language </category>
+          
+          <category> java </category>
+          
+          <category> gradle </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -63,6 +91,16 @@
       
         <content type="html"><![CDATA[<h3 id="프로세스별-메모리-사용량-표시"><a href="#프로세스별-메모리-사용량-표시" class="headerlink" title="프로세스별 메모리 사용량 표시"></a>프로세스별 메모리 사용량 표시</h3><p>ps -eo user,pid,ppid,rss,size,vsize,pmem,pcpu,time,cmd –sort -rss | head -n 11</p>]]></content>
       
+      
+      <categories>
+          
+          <category> os </category>
+          
+          <category> linux </category>
+          
+          <category> command </category>
+          
+      </categories>
       
       
     </entry>
@@ -120,6 +158,14 @@
       
         <content type="html"><![CDATA[<p>구글 개발자 도구 프로그램 관련 포스트 입니다.</p><h2 id="목차"><a href="#목차" class="headerlink" title="목차"></a>목차</h2><ol><li><a href="#pagespeed">구글 웹페이지 속도 측정</a></li></ol><h3 id="pagespeed"><a href="#pagespeed" class="headerlink" title="pagespeed"></a>pagespeed</h3><ol><li><p>구글 웹페이지 속도 측정<br>웹페이지 속도 측정을 도와주고 개선사항을 알려주는 도구</p><p><a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="noopener">PageSpeed Tools</a></p></li></ol><h3 id="google-chart"><a href="#google-chart" class="headerlink" title="google chart"></a>google chart</h3>]]></content>
       
+      
+      <categories>
+          
+          <category> google </category>
+          
+          <category> developers </category>
+          
+      </categories>
       
       
         <tags>
@@ -198,6 +244,8 @@
           
           <category> go </category>
           
+          <category> package-manager </category>
+          
       </categories>
       
       
@@ -248,6 +296,12 @@
         <content type="html"><![CDATA[<h2 id="nginx-웹-서버-소프트웨어"><a href="#nginx-웹-서버-소프트웨어" class="headerlink" title="nginx 웹 서버 소프트웨어"></a>nginx 웹 서버 소프트웨어</h2><ol><li>nginx 설명</li><li>nginx 설치</li></ol>]]></content>
       
       
+      <categories>
+          
+          <category> nginx </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -266,6 +320,16 @@
       
         <content type="html"><![CDATA[<h2 id="JTSL"><a href="#JTSL" class="headerlink" title="JTSL"></a>JTSL</h2><ol><li>설명</li><li>선언</li></ol><h2 id="자바서버-페이지-표준-태그-라이브러리"><a href="#자바서버-페이지-표준-태그-라이브러리" class="headerlink" title="자바서버 페이지 표준 태그 라이브러리"></a>자바서버 페이지 표준 태그 라이브러리</h2><p>(JavaServer Pages Standard Tag Library)</p><h3 id="functions-fn"><a href="#functions-fn" class="headerlink" title="functions ( fn )"></a>functions ( fn )</h3><ul><li><p>선언</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;%@ taglib prefix=&quot;fn&quot; uri=&quot;http://java.sun.com/jsp/jstl/functions&quot; %&gt;</span><br></pre></td></tr></table></figure></li><li><p>사용</p></li></ul><p>글자자르기<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;c:set var=&quot;textValue&quot; value=&quot;abcd&quot; /&gt;</span><br><span class="line">&lt;c:set var=&quot;subStrValue&quot; value=&quot;$&#123;fn:substring(textValue,0,3)&#125;&quot; /&gt;</span><br><span class="line">$&#123;subStrValue&#125;</span><br></pre></td></tr></table></figure></p><h3 id="fmt"><a href="#fmt" class="headerlink" title="fmt"></a>fmt</h3><p>소수점 버리고 INT형으로 표기<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;fmt:parseNumber var=&quot;intValue&quot; integerOnly=&quot;true&quot; value=&quot;$&#123;100/10&#125;&quot;/&gt;</span><br><span class="line">$&#123;intValue&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
       
+      
+      <categories>
+          
+          <category> language </category>
+          
+          <category> java </category>
+          
+          <category> jstl </category>
+          
+      </categories>
       
       
         <tags>
@@ -317,6 +381,8 @@
           
           <category> git </category>
           
+          <category> command </category>
+          
       </categories>
       
       
@@ -341,8 +407,6 @@
       
       
       <categories>
-          
-          <category> blog-framework </category>
           
           <category> hexo </category>
           
