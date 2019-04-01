@@ -13,6 +13,8 @@
       
       <categories>
           
+          <category> os </category>
+          
           <category> linux </category>
           
           <category> ubuntu </category>
@@ -37,7 +39,7 @@
       <link href="/2019/03/24/flutter-step1/"/>
       <url>/2019/03/24/flutter-step1/</url>
       
-        <content type="html"><![CDATA[<h1 id="Flutter-첫번째"><a href="#Flutter-첫번째" class="headerlink" title="Flutter 첫번째"></a>Flutter 첫번째</h1><p>구글에서 개발한 빠르고 쉽게 네이티브 퍼포먼스를 제공하는 오픈소스.</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="Flutter-첫번째"><a href="#Flutter-첫번째" class="headerlink" title="Flutter 첫번째"></a>Flutter 첫번째</h1><p>구글에서 모바일 개발을 쉽고 빠르게 할 수 있게 제공하는 오픈소스.</p><h2 id="Flutter-기본-요소-위젯-widgets"><a href="#Flutter-기본-요소-위젯-widgets" class="headerlink" title="Flutter 기본 요소 위젯 (widgets)"></a>Flutter 기본 요소 위젯 (widgets)</h2><ul><li><p>Text: 문구 삽입 </p></li><li><p>Row, Column: </p></li><li><p>Stack: </p></li><li><p>Container: </p></li></ul>]]></content>
       
       
       

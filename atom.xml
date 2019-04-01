@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pcm9881.github.io/"/>
-  <updated>2019-03-24T14:52:43.965Z</updated>
+  <updated>2019-03-24T15:02:52.775Z</updated>
   <id>https://pcm9881.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://pcm9881.github.io/2019/03/24/ubuntu-config/"/>
     <id>https://pcm9881.github.io/2019/03/24/ubuntu-config/</id>
     <published>2019-03-24T14:07:44.000Z</published>
-    <updated>2019-03-24T14:52:43.965Z</updated>
+    <updated>2019-03-24T15:02:52.775Z</updated>
     
     <content type="html"><![CDATA[<h2 id="우분투-설치화면"><a href="#우분투-설치화면" class="headerlink" title="우분투 설치화면"></a>우분투 설치화면</h2><h3 id="설치형식"><a href="#설치형식" class="headerlink" title="설치형식"></a>설치형식</h3><p>디스크를 지우고 Ubuntu를 설치 [지금설치] 클릭<br><img src="/images/ubuntu_config/001.png" alt="install-001"></p><h3 id="설치형식-적용-확인"><a href="#설치형식-적용-확인" class="headerlink" title="설치형식 적용 확인"></a>설치형식 적용 확인</h3><p>해당사항 적용여부를 묻는 화면 [계속하기] 클릭<br><img src="/images/ubuntu_config/002.png" alt="install-002"></p><h3 id="거주지역-선택"><a href="#거주지역-선택" class="headerlink" title="거주지역 선택"></a>거주지역 선택</h3><p>Seoul 선택  [계속하기] 클릭<br><img src="/images/ubuntu_config/003.png" alt="install-003"></p><h3 id="설치진행-화면"><a href="#설치진행-화면" class="headerlink" title="설치진행 화면"></a>설치진행 화면</h3><p><img src="/images/ubuntu_config/004.png" alt="install-004"></p><h3 id="설치완료-및-재구동안내"><a href="#설치완료-및-재구동안내" class="headerlink" title="설치완료 및 재구동안내"></a>설치완료 및 재구동안내</h3><p>설치완료 [지금 다시 시작] 클릭<br><img src="/images/ubuntu_config/005.png" alt="install-005"></p><h3 id="재구동-화면"><a href="#재구동-화면" class="headerlink" title="재구동 화면"></a>재구동 화면</h3><p><img src="/images/ubuntu_config/006.png" alt="install-006"></p><h3 id="업데이트-안내-설치-진행"><a href="#업데이트-안내-설치-진행" class="headerlink" title="업데이트 안내 설치 진행"></a>업데이트 안내 설치 진행</h3><p><img src="/images/ubuntu_config/007.png" alt="install-007"></p><h3 id="업데이트-완료"><a href="#업데이트-완료" class="headerlink" title="업데이트 완료"></a>업데이트 완료</h3><p><img src="/images/ubuntu_config/008.png" alt="install-008"></p><h2 id="VirtualBox-사용시-전체화면-허용"><a href="#VirtualBox-사용시-전체화면-허용" class="headerlink" title="VirtualBox 사용시 전체화면 허용"></a>VirtualBox 사용시 전체화면 허용</h2><h3 id="VirtualBox"><a href="#VirtualBox" class="headerlink" title="VirtualBox"></a>VirtualBox</h3><p>ubuntu 를 띄운 상태에서 VirtualBox 진행<br>menu - Devices - Insert Guest Additions CD images.. 클릭<br><img src="/images/ubuntu_config/009.png" alt="install-009"></p><h3 id="Guest-Additions-CD-images-적용완료-화면"><a href="#Guest-Additions-CD-images-적용완료-화면" class="headerlink" title="Guest Additions CD images 적용완료 화면"></a>Guest Additions CD images 적용완료 화면</h3><p><img src="/images/ubuntu_config/010.png" alt="install-010"></p>]]></content>
     
@@ -34,9 +34,11 @@
     
     </summary>
     
-      <category term="linux" scheme="https://pcm9881.github.io/categories/linux/"/>
+      <category term="os" scheme="https://pcm9881.github.io/categories/os/"/>
     
-      <category term="ubuntu" scheme="https://pcm9881.github.io/categories/linux/ubuntu/"/>
+      <category term="linux" scheme="https://pcm9881.github.io/categories/os/linux/"/>
+    
+      <category term="ubuntu" scheme="https://pcm9881.github.io/categories/os/linux/ubuntu/"/>
     
     
       <category term="linux" scheme="https://pcm9881.github.io/tags/linux/"/>
@@ -50,15 +52,15 @@
     <link href="https://pcm9881.github.io/2019/03/24/flutter-step1/"/>
     <id>https://pcm9881.github.io/2019/03/24/flutter-step1/</id>
     <published>2019-03-24T13:33:39.000Z</published>
-    <updated>2019-03-24T14:07:33.935Z</updated>
+    <updated>2019-03-31T13:04:40.267Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Flutter-첫번째"><a href="#Flutter-첫번째" class="headerlink" title="Flutter 첫번째"></a>Flutter 첫번째</h1><p>구글에서 개발한 빠르고 쉽게 네이티브 퍼포먼스를 제공하는 오픈소스.</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Flutter-첫번째"><a href="#Flutter-첫번째" class="headerlink" title="Flutter 첫번째"></a>Flutter 첫번째</h1><p>구글에서 모바일 개발을 쉽고 빠르게 할 수 있게 제공하는 오픈소스.</p><h2 id="Flutter-기본-요소-위젯-widgets"><a href="#Flutter-기본-요소-위젯-widgets" class="headerlink" title="Flutter 기본 요소 위젯 (widgets)"></a>Flutter 기본 요소 위젯 (widgets)</h2><ul><li><p>Text: 문구 삽입 </p></li><li><p>Row, Column: </p></li><li><p>Stack: </p></li><li><p>Container: </p></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;Flutter-첫번째&quot;&gt;&lt;a href=&quot;#Flutter-첫번째&quot; class=&quot;headerlink&quot; title=&quot;Flutter 첫번째&quot;&gt;&lt;/a&gt;Flutter 첫번째&lt;/h1&gt;&lt;p&gt;구글에서 개발한 빠르고 쉽게 네이티브 퍼포먼스를 제공하는 오픈
+        &lt;h1 id=&quot;Flutter-첫번째&quot;&gt;&lt;a href=&quot;#Flutter-첫번째&quot; class=&quot;headerlink&quot; title=&quot;Flutter 첫번째&quot;&gt;&lt;/a&gt;Flutter 첫번째&lt;/h1&gt;&lt;p&gt;구글에서 모바일 개발을 쉽고 빠르게 할 수 있게 제공하는 오픈
       
     
     </summary>
