@@ -4,6 +4,64 @@
   
     
     <entry>
+      <title>homebrew</title>
+      <link href="/2019/04/03/homebrew/"/>
+      <url>/2019/04/03/homebrew/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Homebrew-설치"><a href="#Homebrew-설치" class="headerlink" title="Homebrew 설치"></a>Homebrew 설치</h1><p>Linux 시스템에서 제공하지 않는 유용한 패키지 관리자 <a href="https://brew.sh/index_ko" target="_blank" rel="noopener">Homebrew</a></p><h2 id="요구사항"><a href="#요구사항" class="headerlink" title="요구사항"></a>요구사항</h2><ul><li>A 64-bit Intel CPU</li><li>macOS 10.12 (or higher)</li><li>Command Line Tools (CLT) for Xcode: xcode-select –install, developer.apple.com/downloads or Xcode </li><li>A Bourne-compatible shell for installation (e.g. bash or zsh)</li></ul><h2 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span><br></pre></td></tr></table></figure><h2 id="command-명령어-정리"><a href="#command-명령어-정리" class="headerlink" title="command 명령어 정리"></a>command 명령어 정리</h2><p>brew 를 입력하면 해당하는 여러 커맨드가 나열된다.<br>참고로 [FORMULA…] 는 공식 패키지 이름을 뜻한다.</p><h3 id="명령어-확인"><a href="#명령어-확인" class="headerlink" title="명령어 확인"></a>명령어 확인</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew</span><br></pre></td></tr></table></figure><h3 id="버젼-확인"><a href="#버젼-확인" class="headerlink" title="버젼 확인"></a>버젼 확인</h3><ul><li><p>명령어</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew --version</span><br></pre></td></tr></table></figure></li><li><p>결과 예시</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Homebrew 2.0.5</span><br><span class="line">Homebrew/homebrew-core (git revision 49038a; last commit 2019-03-25)</span><br><span class="line">Homebrew/homebrew-cask (git revision 66288; last commit 2019-03-25)</span><br></pre></td></tr></table></figure></li></ul><h3 id="참조"><a href="#참조" class="headerlink" title="참조"></a>참조</h3><p>설치 : <a href="https://docs.brew.sh/Installation" target="_blank" rel="noopener">https://docs.brew.sh/Installation</a><br>명령어 : <a href="https://docs.brew.sh/Manpage" target="_blank" rel="noopener">https://docs.brew.sh/Manpage</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> homebrew </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> homebrew </tag>
+            
+            <tag> homebrew-install </tag>
+            
+            <tag> homebrew-command </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>macos-postgresql</title>
+      <link href="/2019/04/03/macos-postgresql/"/>
+      <url>/2019/04/03/macos-postgresql/</url>
+      
+        <content type="html"><![CDATA[<h3 id="macOS-PostgreSQL-설치"><a href="#macOS-PostgreSQL-설치" class="headerlink" title="macOS PostgreSQL 설치"></a>macOS PostgreSQL 설치</h3><p>macOS 에 PostgreSQL 설치 ( homebrew 사용 )</p><p>참조 : </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> macos </category>
+          
+          <category> postgresql </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> macos </tag>
+            
+            <tag> postgresql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ubuntu-config</title>
       <link href="/2019/03/24/ubuntu-config/"/>
       <url>/2019/03/24/ubuntu-config/</url>
