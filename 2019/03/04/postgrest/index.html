@@ -13,20 +13,23 @@
   <title>postgrest | pcm9881 개발 블로그</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
+  <meta name="keywords" content="postgrest">
   
   
   
-  <meta name="description" content="countselect=count.*">
+  
+  <meta name="description" content="PostgRESTPostgREST는 PostgreSQL 데이터베이스를 RESTful API로 직접 변환하는 독립형 웹 서버. postgres Query 예시 1GET http://postgrest.example.com/member?id=eq.1  설명앞에 HTTP METHOD , Postgrest URI, 테이블명 , 조건으로 설명.      GET htt">
+<meta name="keywords" content="postgrest">
 <meta property="og:type" content="article">
 <meta property="og:title" content="postgrest">
 <meta property="og:url" content="https://pcm9881.github.io/2019/03/04/postgrest/index.html">
 <meta property="og:site_name" content="pcm9881 개발 블로그">
-<meta property="og:description" content="countselect=count.*">
+<meta property="og:description" content="PostgRESTPostgREST는 PostgreSQL 데이터베이스를 RESTful API로 직접 변환하는 독립형 웹 서버. postgres Query 예시 1GET http://postgrest.example.com/member?id=eq.1  설명앞에 HTTP METHOD , Postgrest URI, 테이블명 , 조건으로 설명.      GET htt">
 <meta property="og:locale" content="ko">
-<meta property="og:updated_time" content="2019-03-10T08:02:37.457Z">
+<meta property="og:updated_time" content="2019-04-03T05:13:37.882Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="postgrest">
-<meta name="twitter:description" content="countselect=count.*">
+<meta name="twitter:description" content="PostgRESTPostgREST는 PostgreSQL 데이터베이스를 RESTful API로 직접 변환하는 독립형 웹 서버. postgres Query 예시 1GET http://postgrest.example.com/member?id=eq.1  설명앞에 HTTP METHOD , Postgrest URI, 테이블명 , 조건으로 설명.      GET htt">
   
     <link rel="alternate" href="/atom.xml" title="pcm9881 개발 블로그" type="application/atom+xml">
   
@@ -188,7 +191,56 @@ var themeMenus = {};
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>count<br>select=count.*</p>
+        <h1 id="PostgREST"><a href="#PostgREST" class="headerlink" title="PostgREST"></a>PostgREST</h1><p>PostgREST는 PostgreSQL 데이터베이스를 RESTful API로 직접 변환하는 독립형 웹 서버. <a href="http://postgrest.org" target="_blank" rel="noopener">postgres</a></p>
+<h2 id="Query"><a href="#Query" class="headerlink" title="Query"></a>Query</h2><ul>
+<li><p>예시</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET http://postgrest.example.com/member?id=eq.1</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>설명<br>앞에 HTTP METHOD , Postgrest URI, 테이블명 , 조건으로 설명.</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">GET</th>
+<th style="text-align:left"><a href="http://postgrest.example.com/" target="_blank" rel="noopener">http://postgrest.example.com/</a></th>
+<th style="text-align:center">member</th>
+<th style="text-align:center">?id=eq.1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Verb (HTTP METHOD)</td>
+<td style="text-align:left">RESOURCE (URI)</td>
+<td style="text-align:center">Representation 1</td>
+<td style="text-align:center">Representation 2</td>
+</tr>
+<tr>
+<td style="text-align:left">GET, POST, PUT, DELETE</td>
+<td style="text-align:left">PostgREST 운영중인 URI</td>
+<td style="text-align:center">테이블명</td>
+<td style="text-align:center">조건</td>
+</tr>
+</tbody>
+</table>
+<h3 id="where"><a href="#where" class="headerlink" title="where"></a>where</h3><h3 id="select"><a href="#select" class="headerlink" title="select"></a>select</h3><p>예를 들어서 컬럼을 구별에서 뽑고 싶으면 select=컬럼1,컬럼2를 쿼리로 주면 된다.<br>이때 따로 명시를 안하면 모두 * (asterisk)으로 표현되서 가져온다.</p>
+<ul>
+<li>예시<br>member 테이블에서 id가 1인 id 와 name 컬럼을 가져와라 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET http://postgrest.example.com/member?select=id,name&amp;id=eq.1</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="count"><a href="#count" class="headerlink" title="count"></a>count</h3><p>select=count.*</p>
+<ul>
+<li>예시<br>member 테이블에서 id가 1인 데이터 수를 가져와라<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET http://postgrest.example.com/member?select=count.*&amp;id=eq.1</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="in"><a href="#in" class="headerlink" title="in"></a>in</h3><p>?id=in.(1,2,3)</p>
+<ul>
+<li>예시<br>member 테이블에서 id가 1,2,3 인 데이터를 가져와라<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET http://postgrest.example.com/member?id=in.(1,2,3)</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
+<li>PostgREST 커스텀 쿼리 : <a href="http://postgrest.org/en/v5.2/api.html#custom-queries" target="_blank" rel="noopener">http://postgrest.org/en/v5.2/api.html#custom-queries</a></li>
+</ol>
 
       
     </div>
@@ -198,6 +250,9 @@ var themeMenus = {};
     <a class="article-category-link" href="/categories/postgrest/">postgrest</a>
 
       
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/postgrest/">postgrest</a></li></ul>
+
       
             
       
@@ -257,7 +312,7 @@ var themeMenus = {};
     <div id="toc" class="toc-article" style="overflow-y: scroll; max-width: 28%;">
     <strong class="toc-title">Contents</strong>
     
-      <ol class="nav">None</ol>
+      <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#PostgREST"><span class="nav-number">1.</span> <span class="nav-text">PostgREST</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Query"><span class="nav-number">1.1.</span> <span class="nav-text">Query</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#where"><span class="nav-number">1.1.1.</span> <span class="nav-text">where</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#select"><span class="nav-number">1.1.2.</span> <span class="nav-text">select</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#count"><span class="nav-number">1.1.3.</span> <span class="nav-text">count</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#in"><span class="nav-number">1.1.4.</span> <span class="nav-text">in</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-number">1.2.</span> <span class="nav-text">Reference</span></a></li></ol></li></ol>
     
     </div>
   </aside>

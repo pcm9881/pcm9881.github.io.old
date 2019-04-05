@@ -191,16 +191,26 @@ var themeMenus = {};
 </ul>
 <h2 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span><br></pre></td></tr></table></figure>
 <h2 id="command-명령어-정리"><a href="#command-명령어-정리" class="headerlink" title="command 명령어 정리"></a>command 명령어 정리</h2><p>brew 를 입력하면 해당하는 여러 커맨드가 나열된다.<br>참고로 [FORMULA…] 는 공식 패키지 이름을 뜻한다.</p>
-<h3 id="명령어-확인"><a href="#명령어-확인" class="headerlink" title="명령어 확인"></a>명령어 확인</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew</span><br></pre></td></tr></table></figure>
+<h3 id="명령어-확인"><a href="#명령어-확인" class="headerlink" title="명령어 확인"></a>명령어 확인</h3><ul>
+<li><p>명령어</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>결과</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">Example usage:</span><br><span class="line">  brew search [TEXT|/REGEX/]</span><br><span class="line">  brew info [FORMULA...]</span><br><span class="line">  brew install FORMULA...</span><br><span class="line">  brew update</span><br><span class="line">  brew upgrade [FORMULA...]</span><br><span class="line">  brew uninstall FORMULA...</span><br><span class="line">  brew list [FORMULA...]</span><br><span class="line"></span><br><span class="line">Troubleshooting:</span><br><span class="line">  brew config</span><br><span class="line">  brew doctor</span><br><span class="line">  brew install --verbose --debug FORMULA</span><br><span class="line"></span><br><span class="line">Contributing:</span><br><span class="line">  brew create [URL [--no-fetch]]</span><br><span class="line">  brew edit [FORMULA...]</span><br><span class="line"></span><br><span class="line">Further help:</span><br><span class="line">  brew commands</span><br><span class="line">  brew help [COMMAND]</span><br><span class="line">  man brew</span><br><span class="line">  https://docs.brew.sh</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
 <h3 id="버젼-확인"><a href="#버젼-확인" class="headerlink" title="버젼 확인"></a>버젼 확인</h3><ul>
 <li><p>명령어</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew --version</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>결과 예시</p>
+<li><p>결과</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Homebrew 2.0.5</span><br><span class="line">Homebrew/homebrew-core (git revision 49038a; last commit 2019-03-25)</span><br><span class="line">Homebrew/homebrew-cask (git revision 66288; last commit 2019-03-25)</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h3 id="참조"><a href="#참조" class="headerlink" title="참조"></a>참조</h3><p>설치 : <a href="https://docs.brew.sh/Installation" target="_blank" rel="noopener">https://docs.brew.sh/Installation</a><br>명령어 : <a href="https://docs.brew.sh/Manpage" target="_blank" rel="noopener">https://docs.brew.sh/Manpage</a></p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
+<li>설치 : <a href="https://docs.brew.sh/Installation" target="_blank" rel="noopener">https://docs.brew.sh/Installation</a></li>
+<li>명령어 : <a href="https://docs.brew.sh/Manpage" target="_blank" rel="noopener">https://docs.brew.sh/Manpage</a></li>
+</ol>
 
       
     </div>
@@ -565,7 +575,56 @@ var themeMenus = {};
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>count<br>select=count.*</p>
+        <h1 id="PostgREST"><a href="#PostgREST" class="headerlink" title="PostgREST"></a>PostgREST</h1><p>PostgREST는 PostgreSQL 데이터베이스를 RESTful API로 직접 변환하는 독립형 웹 서버. <a href="http://postgrest.org" target="_blank" rel="noopener">postgres</a></p>
+<h2 id="Query"><a href="#Query" class="headerlink" title="Query"></a>Query</h2><ul>
+<li><p>예시</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET http://postgrest.example.com/member?id=eq.1</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>설명<br>앞에 HTTP METHOD , Postgrest URI, 테이블명 , 조건으로 설명.</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">GET</th>
+<th style="text-align:left"><a href="http://postgrest.example.com/" target="_blank" rel="noopener">http://postgrest.example.com/</a></th>
+<th style="text-align:center">member</th>
+<th style="text-align:center">?id=eq.1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Verb (HTTP METHOD)</td>
+<td style="text-align:left">RESOURCE (URI)</td>
+<td style="text-align:center">Representation 1</td>
+<td style="text-align:center">Representation 2</td>
+</tr>
+<tr>
+<td style="text-align:left">GET, POST, PUT, DELETE</td>
+<td style="text-align:left">PostgREST 운영중인 URI</td>
+<td style="text-align:center">테이블명</td>
+<td style="text-align:center">조건</td>
+</tr>
+</tbody>
+</table>
+<h3 id="where"><a href="#where" class="headerlink" title="where"></a>where</h3><h3 id="select"><a href="#select" class="headerlink" title="select"></a>select</h3><p>예를 들어서 컬럼을 구별에서 뽑고 싶으면 select=컬럼1,컬럼2를 쿼리로 주면 된다.<br>이때 따로 명시를 안하면 모두 * (asterisk)으로 표현되서 가져온다.</p>
+<ul>
+<li>예시<br>member 테이블에서 id가 1인 id 와 name 컬럼을 가져와라 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET http://postgrest.example.com/member?select=id,name&amp;id=eq.1</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="count"><a href="#count" class="headerlink" title="count"></a>count</h3><p>select=count.*</p>
+<ul>
+<li>예시<br>member 테이블에서 id가 1인 데이터 수를 가져와라<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET http://postgrest.example.com/member?select=count.*&amp;id=eq.1</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="in"><a href="#in" class="headerlink" title="in"></a>in</h3><p>?id=in.(1,2,3)</p>
+<ul>
+<li>예시<br>member 테이블에서 id가 1,2,3 인 데이터를 가져와라<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET http://postgrest.example.com/member?id=in.(1,2,3)</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
+<li>PostgREST 커스텀 쿼리 : <a href="http://postgrest.org/en/v5.2/api.html#custom-queries" target="_blank" rel="noopener">http://postgrest.org/en/v5.2/api.html#custom-queries</a></li>
+</ol>
 
       
     </div>
@@ -575,6 +634,9 @@ var themeMenus = {};
     <a class="article-category-link" href="/categories/postgrest/">postgrest</a>
 
       
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/postgrest/">postgrest</a></li></ul>
+
       
             
       
@@ -903,7 +965,7 @@ var themeMenus = {};
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/build-tool/">build-tool</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git-command/">git-command</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/github-pages/">github-pages</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/glossary/">glossary</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/golang/">golang</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/golang-dep/">golang-dep</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/google/">google</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/google-developers/">google-developers</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gradle/">gradle</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/homebrew/">homebrew</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/homebrew-command/">homebrew-command</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/homebrew-install/">homebrew-install</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jstl/">jstl</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/linux/">linux</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/macos/">macos</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mozilla/">mozilla</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nginx/">nginx</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nodejs/">nodejs</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/postgresql/">postgresql</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/redis-cli/">redis-cli</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/security/">security</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ubuntu/">ubuntu</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/virtualbox/">virtualbox</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/build-tool/">build-tool</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git-command/">git-command</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/github-pages/">github-pages</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/glossary/">glossary</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/golang/">golang</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/golang-dep/">golang-dep</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/google/">google</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/google-developers/">google-developers</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/gradle/">gradle</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/homebrew/">homebrew</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/homebrew-command/">homebrew-command</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/homebrew-install/">homebrew-install</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jstl/">jstl</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/linux/">linux</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/macos/">macos</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mozilla/">mozilla</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nginx/">nginx</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nodejs/">nodejs</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/postgresql/">postgresql</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/postgrest/">postgrest</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/redis-cli/">redis-cli</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/security/">security</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ubuntu/">ubuntu</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/virtualbox/">virtualbox</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -913,7 +975,7 @@ var themeMenus = {};
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/build-tool/" style="font-size: 10px;">build-tool</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/git-command/" style="font-size: 10px;">git-command</a> <a href="/tags/github-pages/" style="font-size: 10px;">github-pages</a> <a href="/tags/glossary/" style="font-size: 10px;">glossary</a> <a href="/tags/golang/" style="font-size: 20px;">golang</a> <a href="/tags/golang-dep/" style="font-size: 10px;">golang-dep</a> <a href="/tags/google/" style="font-size: 10px;">google</a> <a href="/tags/google-developers/" style="font-size: 10px;">google-developers</a> <a href="/tags/gradle/" style="font-size: 10px;">gradle</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/homebrew/" style="font-size: 10px;">homebrew</a> <a href="/tags/homebrew-command/" style="font-size: 10px;">homebrew-command</a> <a href="/tags/homebrew-install/" style="font-size: 10px;">homebrew-install</a> <a href="/tags/jstl/" style="font-size: 10px;">jstl</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/macos/" style="font-size: 10px;">macos</a> <a href="/tags/mozilla/" style="font-size: 10px;">mozilla</a> <a href="/tags/nginx/" style="font-size: 10px;">nginx</a> <a href="/tags/nodejs/" style="font-size: 20px;">nodejs</a> <a href="/tags/postgresql/" style="font-size: 10px;">postgresql</a> <a href="/tags/redis-cli/" style="font-size: 10px;">redis-cli</a> <a href="/tags/security/" style="font-size: 10px;">security</a> <a href="/tags/ubuntu/" style="font-size: 20px;">ubuntu</a> <a href="/tags/virtualbox/" style="font-size: 10px;">virtualbox</a>
+      <a href="/tags/build-tool/" style="font-size: 10px;">build-tool</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/git-command/" style="font-size: 10px;">git-command</a> <a href="/tags/github-pages/" style="font-size: 10px;">github-pages</a> <a href="/tags/glossary/" style="font-size: 10px;">glossary</a> <a href="/tags/golang/" style="font-size: 20px;">golang</a> <a href="/tags/golang-dep/" style="font-size: 10px;">golang-dep</a> <a href="/tags/google/" style="font-size: 10px;">google</a> <a href="/tags/google-developers/" style="font-size: 10px;">google-developers</a> <a href="/tags/gradle/" style="font-size: 10px;">gradle</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/homebrew/" style="font-size: 10px;">homebrew</a> <a href="/tags/homebrew-command/" style="font-size: 10px;">homebrew-command</a> <a href="/tags/homebrew-install/" style="font-size: 10px;">homebrew-install</a> <a href="/tags/jstl/" style="font-size: 10px;">jstl</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/macos/" style="font-size: 10px;">macos</a> <a href="/tags/mozilla/" style="font-size: 10px;">mozilla</a> <a href="/tags/nginx/" style="font-size: 10px;">nginx</a> <a href="/tags/nodejs/" style="font-size: 20px;">nodejs</a> <a href="/tags/postgresql/" style="font-size: 10px;">postgresql</a> <a href="/tags/postgrest/" style="font-size: 10px;">postgrest</a> <a href="/tags/redis-cli/" style="font-size: 10px;">redis-cli</a> <a href="/tags/security/" style="font-size: 10px;">security</a> <a href="/tags/ubuntu/" style="font-size: 20px;">ubuntu</a> <a href="/tags/virtualbox/" style="font-size: 10px;">virtualbox</a>
     </div>
   </div>
 
