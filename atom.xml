@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pcm9881.github.io/"/>
-  <updated>2019-04-05T05:02:28.008Z</updated>
+  <updated>2019-04-06T16:31:42.218Z</updated>
   <id>https://pcm9881.github.io/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>macos-add-font</title>
+    <link href="https://pcm9881.github.io/2019/04/07/macos-add-font/"/>
+    <id>https://pcm9881.github.io/2019/04/07/macos-add-font/</id>
+    <published>2019-04-06T15:50:30.000Z</published>
+    <updated>2019-04-06T16:31:42.218Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="macOS-font-추가하기"><a href="#macOS-font-추가하기" class="headerlink" title="macOS font 추가하기"></a>macOS font 추가하기</h1><p>SF Collegiate Solid font 를 예시로 구글에 추가하는 내용을 보여주려고 한다.</p><h2 id="SF-Collegiate-Solid-font"><a href="#SF-Collegiate-Solid-font" class="headerlink" title="SF Collegiate Solid font"></a>SF Collegiate Solid font</h2><p>먼저 F Collegiate Solid font 다운로드 <a href="https://google.com" target="_blank" rel="noopener">sf-collegiate-solid.font</a></p><h2 id="적용"><a href="#적용" class="headerlink" title="적용"></a>적용</h2><p>사용자ID : 본인 macOS 계정<br>사용자ID 모르겠으면 command 창에 <figure class="highlight plain"><figcaption><span>입력</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p><p>/Users/사용자ID/Downloads<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">- 사용자 Font 경로</span><br></pre></td></tr></table></figure></p><p>/Users/사용자ID/Library/Fonts<br><code>`</code></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;macOS-font-추가하기&quot;&gt;&lt;a href=&quot;#macOS-font-추가하기&quot; class=&quot;headerlink&quot; title=&quot;macOS font 추가하기&quot;&gt;&lt;/a&gt;macOS font 추가하기&lt;/h1&gt;&lt;p&gt;SF Collegiate Soli
+      
+    
+    </summary>
+    
+      <category term="category" scheme="https://pcm9881.github.io/categories/category/"/>
+    
+    
+      <category term="tag" scheme="https://pcm9881.github.io/tags/tag/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>inkscape</title>
+    <link href="https://pcm9881.github.io/2019/04/05/inkscape/"/>
+    <id>https://pcm9881.github.io/2019/04/05/inkscape/</id>
+    <published>2019-04-05T13:08:32.000Z</published>
+    <updated>2019-04-06T16:03:03.624Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Inkscape"><a href="#Inkscape" class="headerlink" title="Inkscape"></a>Inkscape</h1><p>Inkscape(잉크스케이프)는 Windows, Mac OS X과 리눅스를 위한 전문적인 벡터 그래픽 편집기입니다. 이것은 자유 및 오픈 소스입니다. <a href="https://inkscape.org/ko" target="_blank" rel="noopener">inkscape</a></p><h2 id="환경"><a href="#환경" class="headerlink" title="환경"></a>환경</h2><ul><li>macOS </li></ul><h2 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h2><p>homebrew 를 사용해서 설치 하겠습니다. <a href="">homebrew-설치</a></p><ul><li><p>명령어<br>&#8251; xquartz 가 먼저 설치 되어있어야 하다. 만약 설치가 안되어 있다면 <a href="https://pcm9881.github.io/2019/04/05/inkscape/#xquartz-%EC%84%A4%EC%B9%98">여기</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew cask install inkscape</span><br></pre></td></tr></table></figure></li><li><p>결과 </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">Updating Homebrew...</span><br><span class="line">Ignoring path homebrew-cask/</span><br><span class="line">To restore the stashed changes to /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask run:</span><br><span class="line">  &apos;cd /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask &amp;&amp; git stash pop&apos;</span><br><span class="line">==&gt; Auto-updated Homebrew!</span><br><span class="line">Updated 1 tap (homebrew/cask).</span><br><span class="line">No changes to formulae.</span><br><span class="line">==&gt; Satisfying dependencies</span><br><span class="line">==&gt; Downloading https://inkscape.org/gallery/item/11269/Inkscape-0.92.2-1-x11-10.7-x86_64.dmg</span><br><span class="line">==&gt; Downloading from https://media.inkscape.org/dl/resources/file/Inkscape-0.92.2-1-x11-10.7-x86_64.dmg</span><br><span class="line">######################################################################## 100.0%</span><br><span class="line">==&gt; Verifying SHA-256 checksum for Cask &apos;inkscape&apos;.</span><br><span class="line">==&gt; Installing Cask inkscape</span><br><span class="line">==&gt; Moving App &apos;Inkscape.app&apos; to &apos;/Applications/Inkscape.app&apos;.</span><br><span class="line">==&gt; Linking Binary &apos;inkscape&apos; to &apos;/usr/local/bin/inkscape&apos;.</span><br><span class="line">🍺  inkscape was successfully installed!</span><br></pre></td></tr></table></figure></li></ul><h2 id="xquartz-설치"><a href="#xquartz-설치" class="headerlink" title="xquartz 설치"></a>xquartz 설치</h2><p>혹시 이런 내용을 봤다면 해당 내용을 참고하세요.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Updating Homebrew...</span><br><span class="line">==&gt; Satisfying dependencies</span><br><span class="line">Error: Cask &apos;inkscape&apos; requires XQuartz/X11, which can be installed using Homebrew Cask by running</span><br><span class="line">  brew cask install xquartz</span><br></pre></td></tr></table></figure></p><ul><li><p>명령어</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew cask install xquartz</span><br></pre></td></tr></table></figure></li><li><p>결과</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">==&gt; Satisfying dependencies</span><br><span class="line">==&gt; Downloading https://dl.bintray.com/xquartz/downloads/XQuartz-2.7.11.dmg</span><br><span class="line">==&gt; Downloading from https://d29vzk4ow07wi7.cloudfront.net/32e50e8f1e21542b847041711039fa78d44febfed466f834a9281c44d75cd6c3?response-content-disposition=attachment%3Bfilename%3D%22XQuartz-2.7.11.dmg%22&amp;</span><br><span class="line">######################################################################## 100.0%</span><br><span class="line">==&gt; Verifying SHA-256 checksum for Cask &apos;xquartz&apos;.</span><br><span class="line">==&gt; Installing Cask xquartz</span><br><span class="line">==&gt; Running installer for xquartz; your password may be necessary.</span><br><span class="line">==&gt; Package installers may write to any location; options such as --appdir are ignored.</span><br><span class="line">Password: 비밀번호 입력</span><br><span class="line">installer: Package name is XQuartz 2.7.11</span><br><span class="line">installer: Installing at base path /</span><br><span class="line">installer: The install was successful.</span><br><span class="line">🍺  xquartz was successfully installed!</span><br></pre></td></tr></table></figure></li></ul><h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Inkscape&quot;&gt;&lt;a href=&quot;#Inkscape&quot; class=&quot;headerlink&quot; title=&quot;Inkscape&quot;&gt;&lt;/a&gt;Inkscape&lt;/h1&gt;&lt;p&gt;Inkscape(잉크스케이프)는 Windows, Mac OS X과 리눅스를 위한 전
+      
+    
+    </summary>
+    
+      <category term="inkscape" scheme="https://pcm9881.github.io/categories/inkscape/"/>
+    
+    
+      <category term="inkscape" scheme="https://pcm9881.github.io/tags/inkscape/"/>
+    
+  </entry>
   
   <entry>
     <title>homebrew</title>
@@ -110,7 +160,7 @@
     <link href="https://pcm9881.github.io/2019/03/24/flutter-step1/"/>
     <id>https://pcm9881.github.io/2019/03/24/flutter-step1/</id>
     <published>2019-03-24T13:33:39.000Z</published>
-    <updated>2019-03-31T13:04:40.267Z</updated>
+    <updated>2019-04-06T16:48:08.830Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Flutter-첫번째"><a href="#Flutter-첫번째" class="headerlink" title="Flutter 첫번째"></a>Flutter 첫번째</h1><p>구글에서 모바일 개발을 쉽고 빠르게 할 수 있게 제공하는 오픈소스.</p><h2 id="Flutter-기본-요소-위젯-widgets"><a href="#Flutter-기본-요소-위젯-widgets" class="headerlink" title="Flutter 기본 요소 위젯 (widgets)"></a>Flutter 기본 요소 위젯 (widgets)</h2><ul><li><p>Text: 문구 삽입 </p></li><li><p>Row, Column: </p></li><li><p>Stack: </p></li><li><p>Container: </p></li></ul>]]></content>
     
@@ -556,25 +606,27 @@
   </entry>
   
   <entry>
-    <title>개발용어 정리 페이지 첫번째</title>
-    <link href="https://pcm9881.github.io/2018/09/16/glossary-step1/"/>
-    <id>https://pcm9881.github.io/2018/09/16/glossary-step1/</id>
+    <title>웹개발자가 알아야하는 개발용어 정리</title>
+    <link href="https://pcm9881.github.io/2018/09/16/glossary/"/>
+    <id>https://pcm9881.github.io/2018/09/16/glossary/</id>
     <published>2018-09-16T09:50:16.000Z</published>
-    <updated>2019-03-10T07:46:31.716Z</updated>
+    <updated>2019-04-06T16:47:57.334Z</updated>
     
-    <content type="html"><![CDATA[<p>개발용어 정리 페이지 첫번째장입니다. 각 장당 5개 용어를 설명 하려고 합니다. 현재 페이지에서는 IIFE, SPA, runtime,</p><h2 id="목차"><a href="#목차" class="headerlink" title="목차"></a>목차</h2><ol><li><a href="#IIFE">IIFE</a></li><li><a href="#SPA">SPA</a></li><li><a href="#runtime">runtime</a></li><li><a href="#RESTFul">RESTFul</a></li><li></li></ol><h3 id="IIFE"><a href="#IIFE" class="headerlink" title="IIFE"></a>IIFE</h3><p>  IIFE (Immediately Invoked Function Expression)<br>  즉시 실행 함수 표현은 정의되자마자 즉시 실행되는 Javascript Function<br>  이는 Self-Executing Anonymous Function 으로 알려진 디자인 패턴이고 크게 두 부분으로 구성된다.<br>  첫 번째는 괄호((), Grouping Operator)로 둘러싸인 익명함수(Anonymous Function)</p><ul><li><p>예제 1</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(function () &#123; </span><br><span class="line">    var aName = &quot;pcm9881&quot;;</span><br><span class="line">&#125;)();</span><br><span class="line">// IIFE 내부에서 정의된 변수는 외부 범위에서 접근이 불가</span><br><span class="line">aName // throws &quot;Uncaught ReferenceError: aName is not defined&quot;</span><br></pre></td></tr></table></figure></li><li><p>예제 2</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var result = (function () &#123; </span><br><span class="line">  var name = &quot;pcm9881&quot;; </span><br><span class="line">  return name; </span><br><span class="line">&#125;)(); </span><br><span class="line">// 즉시 결과를 생성</span><br><span class="line">result; // &quot;pcm9881&quot;</span><br></pre></td></tr></table></figure><p>예제 2번을 보면 IIFE를 변수에 할당하면 IIFE 자체는 저장되지 않고, 함수가 실행된 결과만 저장</p></li><li><p>참조 : <a href="https://developer.mozilla.org/ko/docs/Glossary/IIFE" target="_blank" rel="noopener">MDN 웹 문서</a></p></li></ul><h3 id="SPA"><a href="#SPA" class="headerlink" title="SPA"></a>SPA</h3><p>  SPA (Single Page Applications) 싱글 페이지 애플리케이션</p><p>  서버로부터 완전한 새로운 페이지를 불러오지 않고 현재의</p><h3 id="runtime"><a href="#runtime" class="headerlink" title="runtime"></a>runtime</h3><p>  runtime  런타임</p><h3 id="RESTFul"><a href="#RESTFul" class="headerlink" title="RESTFul"></a>RESTFul</h3>]]></content>
+    <content type="html"><![CDATA[<h1 id="개발용어-정리"><a href="#개발용어-정리" class="headerlink" title="개발용어 정리"></a>개발용어 정리</h1><p>개발용어 정리 페이지 </p><h2 id="A"><a href="#A" class="headerlink" title="A"></a>A</h2><h3 id="API"><a href="#API" class="headerlink" title="API"></a>API</h3><p>Application Programming Interface</p><h2 id="B"><a href="#B" class="headerlink" title="B"></a>B</h2><h3 id="Bourne-shell"><a href="#Bourne-shell" class="headerlink" title="Bourne shell"></a>Bourne shell</h3><p>본 쉘 Bourne shell, sh</p><ol><li>유닉스 버전 7의 기본 쉘</li><li></li><li></li></ol><h3 id="Bash"><a href="#Bash" class="headerlink" title="Bash"></a>Bash</h3><p>배시 은 본 셸을 대체하는 자유 소프트웨어로서 GNU 프로젝트를 위해 브라이언 폭스가 작성한 유닉스 셸이다</p><h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><h2 id="D"><a href="#D" class="headerlink" title="D"></a>D</h2><h2 id="E"><a href="#E" class="headerlink" title="E"></a>E</h2><h2 id="F"><a href="#F" class="headerlink" title="F"></a>F</h2><h2 id="G"><a href="#G" class="headerlink" title="G"></a>G</h2><h3 id="GNU"><a href="#GNU" class="headerlink" title="GNU"></a>GNU</h3><p>GNU’s Not Unix의 약어 앞에 GNU 사용함으로 재귀적 약자라고 한다.</p><h2 id="H"><a href="#H" class="headerlink" title="H"></a>H</h2><h2 id="I"><a href="#I" class="headerlink" title="I"></a>I</h2><h2 id="J"><a href="#J" class="headerlink" title="J"></a>J</h2><h2 id="K"><a href="#K" class="headerlink" title="K"></a>K</h2><h2 id="L"><a href="#L" class="headerlink" title="L"></a>L</h2><h2 id="M"><a href="#M" class="headerlink" title="M"></a>M</h2><h2 id="N"><a href="#N" class="headerlink" title="N"></a>N</h2><h2 id="O"><a href="#O" class="headerlink" title="O"></a>O</h2><h2 id="P"><a href="#P" class="headerlink" title="P"></a>P</h2><h2 id="Q"><a href="#Q" class="headerlink" title="Q"></a>Q</h2><h2 id="R"><a href="#R" class="headerlink" title="R"></a>R</h2><h2 id="S"><a href="#S" class="headerlink" title="S"></a>S</h2><h2 id="T"><a href="#T" class="headerlink" title="T"></a>T</h2><h2 id="U"><a href="#U" class="headerlink" title="U"></a>U</h2><h2 id="W"><a href="#W" class="headerlink" title="W"></a>W</h2><h2 id="X"><a href="#X" class="headerlink" title="X"></a>X</h2><h2 id="Y"><a href="#Y" class="headerlink" title="Y"></a>Y</h2><h2 id="Z"><a href="#Z" class="headerlink" title="Z"></a>Z</h2><h3 id="IIFE"><a href="#IIFE" class="headerlink" title="IIFE"></a>IIFE</h3><p>  IIFE (Immediately Invoked Function Expression)<br>  즉시 실행 함수 표현은 정의되자마자 즉시 실행되는 Javascript Function<br>  이는 Self-Executing Anonymous Function 으로 알려진 디자인 패턴이고 크게 두 부분으로 구성된다.<br>  첫 번째는 괄호((), Grouping Operator)로 둘러싸인 익명함수(Anonymous Function)</p><ul><li><p>예제 1</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(function () &#123; </span><br><span class="line">    var aName = &quot;pcm9881&quot;;</span><br><span class="line">&#125;)();</span><br><span class="line">// IIFE 내부에서 정의된 변수는 외부 범위에서 접근이 불가</span><br><span class="line">aName // throws &quot;Uncaught ReferenceError: aName is not defined&quot;</span><br></pre></td></tr></table></figure></li><li><p>예제 2</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var result = (function () &#123; </span><br><span class="line">  var name = &quot;pcm9881&quot;; </span><br><span class="line">  return name; </span><br><span class="line">&#125;)(); </span><br><span class="line">// 즉시 결과를 생성</span><br><span class="line">result; // &quot;pcm9881&quot;</span><br></pre></td></tr></table></figure><p>예제 2번을 보면 IIFE를 변수에 할당하면 IIFE 자체는 저장되지 않고, 함수가 실행된 결과만 저장</p></li><li><p>참조 : <a href="https://developer.mozilla.org/ko/docs/Glossary/IIFE" target="_blank" rel="noopener">MDN 웹 문서</a></p></li></ul><h3 id="SPA"><a href="#SPA" class="headerlink" title="SPA"></a>SPA</h3><p>  SPA (Single Page Applications) 싱글 페이지 애플리케이션</p><p>  서버로부터 완전한 새로운 페이지를 불러오지 않고 현재의</p><h3 id="runtime"><a href="#runtime" class="headerlink" title="runtime"></a>runtime</h3><p>  runtime  런타임</p><h3 id="RESTFul"><a href="#RESTFul" class="headerlink" title="RESTFul"></a>RESTFul</h3>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;개발용어 정리 페이지 첫번째장입니다. 각 장당 5개 용어를 설명 하려고 합니다. 현재 페이지에서는 IIFE, SPA, runtime,&lt;/p&gt;
-&lt;h2 id=&quot;목차&quot;&gt;&lt;a href=&quot;#목차&quot; class=&quot;headerlink&quot; title=&quot;목차&quot;&gt;&lt;/
+        &lt;h1 id=&quot;개발용어-정리&quot;&gt;&lt;a href=&quot;#개발용어-정리&quot; class=&quot;headerlink&quot; title=&quot;개발용어 정리&quot;&gt;&lt;/a&gt;개발용어 정리&lt;/h1&gt;&lt;p&gt;개발용어 정리 페이지 &lt;/p&gt;
+&lt;h2 id=&quot;A&quot;&gt;&lt;a href=&quot;#A&quot; class=&quot;he
       
     
     </summary>
     
-      <category term="glossary" scheme="https://pcm9881.github.io/categories/glossary/"/>
+      <category term="web-development" scheme="https://pcm9881.github.io/categories/web-development/"/>
+    
+      <category term="glossary" scheme="https://pcm9881.github.io/categories/web-development/glossary/"/>
     
     
       <category term="glossary" scheme="https://pcm9881.github.io/tags/glossary/"/>
