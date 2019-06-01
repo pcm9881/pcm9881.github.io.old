@@ -4,29 +4,23 @@
   
     
     <entry>
-      <title>go-cli</title>
-      <link href="/2019/04/17/go-cli/"/>
-      <url>/2019/04/17/go-cli/</url>
+      <title>react-native</title>
+      <link href="/2019/04/22/react-native/"/>
+      <url>/2019/04/22/react-native/</url>
       
-        <content type="html"><![CDATA[<p><img src="https://cloud.githubusercontent.com/assets/173412/10886352/ad566232-814f-11e5-9cd0-aa101788c117.png" alt="cobra"></p><h1 id="Go-Command-Line-Interface"><a href="#Go-Command-Line-Interface" class="headerlink" title="Go Command Line Interface"></a>Go Command Line Interface</h1><p>Go 언어로 개발하는 커멘드 라인 인터페이스 예제입니다.<br>깃허브 오픈소스 라이브러리 코브라<a href="https://github.com/spf13/cobra" target="_blank" rel="noopener">github-cobra</a>를 사용해서 개발했습니다.</p><h2 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h2><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://github.com/spf13/cobra" target="_blank" rel="noopener">github-cobra</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<p><img src="/images/이미지경로.png" alt="이미지제목"></p><h1 id="React-Native"><a href="#React-Native" class="headerlink" title="React Native"></a>React Native</h1><p>네이티브 웹 어플리케이션을 빌드하게 도와주는 UI 라이브러리</p><p>objective-c는 iOS<br>java는 android</p><p>javascript를 마지막 컴파일링 할 때, 각각 iOS()/android() 네이티브 코드로 실행이 됨.</p><p>JSX, javascript로 작성 </p><p>javascript 활용<br>커뮤니티<br>많은 회사</p><p>인스타그램, 에어비앤비, 페이스북<br>회사 확인 showcase react native</p><h1 id="React-js"><a href="#React-js" class="headerlink" title="React js"></a>React js</h1><h1 id="javascipt"><a href="#javascipt" class="headerlink" title="javascipt"></a>javascipt</h1><h1 id="macOS"><a href="#macOS" class="headerlink" title="macOS"></a>macOS</h1><h1 id="아이폰-시뮬레이터"><a href="#아이폰-시뮬레이터" class="headerlink" title="아이폰 시뮬레이터"></a>아이폰 시뮬레이터</h1><h1 id="안드로이드-시뮬레이터"><a href="#안드로이드-시뮬레이터" class="headerlink" title="안드로이드 시뮬레이터"></a>안드로이드 시뮬레이터</h1><h1 id="nodejs"><a href="#nodejs" class="headerlink" title="nodejs"></a>nodejs</h1><h1 id="npm"><a href="#npm" class="headerlink" title="npm"></a>npm</h1><h1 id="텍스트에디터-visual-studio-code"><a href="#텍스트에디터-visual-studio-code" class="headerlink" title="텍스트에디터 visual studio code"></a>텍스트에디터 visual studio code</h1><h1 id="expo"><a href="#expo" class="headerlink" title="expo"></a>expo</h1><p>npm install expo-cli –global</p><h2 id="부제목"><a href="#부제목" class="headerlink" title="부제목"></a>부제목</h2><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://google.com" target="_blank" rel="noopener">구글</a></li></ul>]]></content>
       
       
       <categories>
           
-          <category> programming-language </category>
-          
-          <category> golang </category>
-          
-          <category> go-cli </category>
+          <category> web-app </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> golang </tag>
-            
-            <tag> go-cli </tag>
+            <tag> react-native </tag>
             
         </tags>
       
@@ -35,25 +29,23 @@
     
     
     <entry>
-      <title>typescript</title>
-      <link href="/2019/04/10/typescript/"/>
-      <url>/2019/04/10/typescript/</url>
+      <title>hello-world</title>
+      <link href="/2019/04/21/hello-world/"/>
+      <url>/2019/04/21/hello-world/</url>
       
-        <content type="html"><![CDATA[<p><img src="/images/이미지경로.png" alt="이미지제목"></p><h1 id="제목"><a href="#제목" class="headerlink" title="제목"></a>제목</h1><p>설명 입니다. <a href="https://google.com" target="_blank" rel="noopener">구글</a></p><h2 id="부제목"><a href="#부제목" class="headerlink" title="부제목"></a>부제목</h2><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="https://google.com" target="_blank" rel="noopener">구글</a></p>]]></content>
+        <content type="html"><![CDATA[<p><img src="/images/hello-world/hello-world.gif" alt="hello-world"></p><h1 id="Hello-World-유래"><a href="#Hello-World-유래" class="headerlink" title="Hello World 유래"></a>Hello World 유래</h1><p>“Hello world!”가 사용된 것은 1978년에 출판된 브라이언 커니핸과 데니스 리치가 쓴 책 “The C Programming Language”에서 비롯한다.</p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://ko.wikipedia.org/wiki/%22Hello,_World!%22_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8" target="_blank" rel="noopener">위키백과</a></li></ul>]]></content>
       
       
       <categories>
           
-          <category> programming-language </category>
-          
-          <category> typescript </category>
+          <category> 웹지식 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> typescript </tag>
+            <tag> hello-world </tag>
             
         </tags>
       
@@ -62,566 +54,25 @@
     
     
     <entry>
-      <title>php-postgresql-transaction</title>
-      <link href="/2019/04/10/php-postgresql-transaction/"/>
-      <url>/2019/04/10/php-postgresql-transaction/</url>
+      <title>HTML5</title>
+      <link href="/2019/04/21/HTML5/"/>
+      <url>/2019/04/21/HTML5/</url>
       
-        <content type="html"><![CDATA[<p><img src="/images/이미지경로.png" alt="이미지제목"></p><h1 id="제목"><a href="#제목" class="headerlink" title="제목"></a>제목</h1><p>설명 입니다. <a href="https://google.com" target="_blank" rel="noopener">구글</a></p><h2 id="부제목"><a href="#부제목" class="headerlink" title="부제목"></a>부제목</h2><h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><p><a href="https://google.com" target="_blank" rel="noopener">구글</a></p>]]></content>
+        <content type="html"><![CDATA[<p><img src="/images/HTML5/001.png" alt="HTML5"></p><h1 id="HTML5"><a href="#HTML5" class="headerlink" title="HTML5"></a>HTML5</h1><p>HTML (Hypertext Markup Language)은 웹페이지 및 웹 응용 프로그램을 만들기 위한 표준 마크 업 언어입니다. 월드와이드웹 (World Wide Web)을 <a href>Cascading Style Sheets</a>와 </p><p><a href="https://www.w3.org/html/" target="_blank" rel="noopener">w3-html</a></p><h2 id="HTML-역사"><a href="#HTML-역사" class="headerlink" title="HTML 역사"></a>HTML 역사</h2><h2 id="HTML-기본-예제"><a href="#HTML-기본-예제" class="headerlink" title="HTML 기본 예제"></a>HTML 기본 예제</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;title&gt;This is a title&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;p&gt;Hello world!&lt;/p&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure><p><strong>* 왜 “Hello world!”를 쓰는지 궁금하다면 <a href="/hell-wolrd">hello-world</a></strong></p><h2 id="HTML-요소-elements-설명"><a href="#HTML-요소-elements-설명" class="headerlink" title="HTML 요소(elements) 설명"></a>HTML 요소(elements) 설명</h2><table><thead><tr><th style="text-align:center">element</th><th style="text-align:left">설명</th></tr></thead><tbody><tr><td style="text-align:center"><code>&lt;html&gt;</code></td><td style="text-align:left">HTML 문서의 루트를 나타냅니다. 모든 다른요소는 이 요소의 후손입니다.</td></tr></tbody></table><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" target="_blank" rel="noopener">개발자-모질라</a></li></ul>]]></content>
       
       
       <categories>
           
-          <category> programming-language </category>
+          <category> 웹기초 </category>
           
-          <category> php </category>
-          
-          <category> postgresql-transaction </category>
+          <category> HTML5 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> php </tag>
-            
-            <tag> postgresql-transaction </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>puppeteer 개발도구</title>
-      <link href="/2019/04/10/puppeteer/"/>
-      <url>/2019/04/10/puppeteer/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/images/puppeteer/001.png" alt="puppeteer"></p><h1 id="puppeteer"><a href="#puppeteer" class="headerlink" title="puppeteer"></a>puppeteer</h1><p>Headless Chrome을 통해 여러 API를 제공해주는 Node.js 라이브러리 입니다. <a href="https://pptr.dev/" target="_blank" rel="noopener">puppeteer</a></p><h2 id="환경"><a href="#환경" class="headerlink" title="환경"></a>환경</h2><ul><li>macOS Mojave 10.14.4</li><li>node v10.5.0</li></ul><h2 id="puppeteer-설치"><a href="#puppeteer-설치" class="headerlink" title="puppeteer 설치"></a>puppeteer 설치</h2><p>먼저 퍼펫티어를 </p><ul><li><p>npm</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm i puppeteer</span><br></pre></td></tr></table></figure></li><li><p>yarn</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ yarn add puppeteer</span><br></pre></td></tr></table></figure></li></ul><h2 id="puppeteer를-통해서-원하는-페이지를-example-png로-스크린샷을-찍어보자"><a href="#puppeteer를-통해서-원하는-페이지를-example-png로-스크린샷을-찍어보자" class="headerlink" title="puppeteer를 통해서 원하는 페이지를 example.png로 스크린샷을 찍어보자"></a>puppeteer를 통해서 원하는 페이지를 example.png로 스크린샷을 찍어보자</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="참조"><a href="#참조" class="headerlink" title="참조"></a>참조</h2><p><a href="https://pptr.dev/" target="_blank" rel="noopener">puppeteer</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> nodejs </category>
-          
-          <category> puppeteer </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> puppeteer </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>chaijs</title>
-      <link href="/2019/04/10/chaijs/"/>
-      <url>/2019/04/10/chaijs/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/images/chaijs/001.png" alt="chaijs"></p><h1 id="chaijs"><a href="#chaijs" class="headerlink" title="chaijs"></a>chaijs</h1><p>어떤 자바스크립트 테스트 프레임워크에도 어울리는 Node.js 라이브러리 입니다.<a href="https://www.chaijs.com/" target="_blank" rel="noopener">chaijs</a></p><h2 id="Node-js-프로젝트-설치"><a href="#Node-js-프로젝트-설치" class="headerlink" title="Node.js 프로젝트 설치"></a>Node.js 프로젝트 설치</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install chai</span><br></pre></td></tr></table></figure><ul><li><p>권장사항<br>package.json 에 chai 버전을 * 로 하면 항상 최신버전을 적용할 수 있다.</p></li><li><p>package.json 예시 </p></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&quot;devDependencies&quot;: &#123;</span><br><span class="line">  &quot;chai&quot;: &quot;*&quot;,</span><br><span class="line">  &quot;mocha&quot;: &quot;*&quot;</span><br><span class="line">&#125;, &quot;//&quot;: &quot;mocha is our preference, but you can use any test runner you like&quot;</span><br></pre></td></tr></table></figure><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://www.chaijs.com/" target="_blank" rel="noopener">chaijs</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> nodejs </category>
-          
-          <category> chaijs </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> chaijs </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>mochajs</title>
-      <link href="/2019/04/10/mochajs/"/>
-      <url>/2019/04/10/mochajs/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/images/이미지경로.png" alt="이미지제목"></p><h1 id="제목"><a href="#제목" class="headerlink" title="제목"></a>제목</h1><p>테스트 뼈대를 만들어주는 package <a href="https://mochajs.org/" target="_blank" rel="noopener">mochajs</a></p><h2 id="부제목"><a href="#부제목" class="headerlink" title="부제목"></a>부제목</h2><h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><p><a href="https://google.com" target="_blank" rel="noopener">구글</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> nodejs </category>
-          
-          <category> mochajs </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> mochajs </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>macOS Font 추가</title>
-      <link href="/2019/04/07/macos-add-font/"/>
-      <url>/2019/04/07/macos-add-font/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/images/macos_add_font/001.png" alt="sf-collegiate-solid.font"></p><h1 id="macOS-font-추가하기"><a href="#macOS-font-추가하기" class="headerlink" title="macOS font 추가하기"></a>macOS font 추가하기</h1><p>SF Collegiate Solid font 를 예시로 구글에 추가하는 내용을 보여주려고 한다.</p><h2 id="SF-Collegiate-Solid-font"><a href="#SF-Collegiate-Solid-font" class="headerlink" title="SF Collegiate Solid font"></a>SF Collegiate Solid font</h2><p>먼저 SF Collegiate Solid font 다운로드 <a href="https://fonts2u.com/sf-collegiate-solid.font" target="_blank" rel="noopener">sf-collegiate-solid.font</a></p><h2 id="일반-사용자-버전"><a href="#일반-사용자-버전" class="headerlink" title="일반 사용자 버전"></a>일반 사용자 버전</h2><h2 id="개발자-버전"><a href="#개발자-버전" class="headerlink" title="개발자 버전"></a>개발자 버전</h2><p>사용자ID : 본인 macOS 계정<br>사용자ID 모르겠으면 command 창에 <figure class="highlight plain"><figcaption><span>입력</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">1. 별도로 다운로드 경로 지정 안했을 경우 위치</span><br></pre></td></tr></table></figure></p><p>/Users/사용자ID/Downloads<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">1. 사용자 Font 경로</span><br></pre></td></tr></table></figure></p><p>/Users/사용자ID/Library/Fonts<br><code>`</code></p><h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> os </category>
-          
-          <category> macos </category>
-          
-          <category> install-font </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> install-font </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Inkscape 벡터 그래픽 편집기</title>
-      <link href="/2019/04/05/inkscape/"/>
-      <url>/2019/04/05/inkscape/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Inkscape"><a href="#Inkscape" class="headerlink" title="Inkscape"></a>Inkscape</h1><p>Inkscape(잉크스케이프)는 Windows, Mac OS X과 리눅스를 위한 전문적인 벡터 그래픽 편집기입니다. 이것은 자유 및 오픈 소스입니다. <a href="https://inkscape.org/ko" target="_blank" rel="noopener">Inkscape</a></p><p>&lt;! - more -&gt;</p><h2 id="환경"><a href="#환경" class="headerlink" title="환경"></a>환경</h2><ul><li>macOS </li></ul><h2 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h2><p>homebrew 를 사용해서 설치 하겠습니다. <a href="/2019/04/03/homebrew/#Homebrew-설치">homebrew-설치</a></p><ul><li><p>명령어<br>&#8251; xquartz 가 먼저 설치 되어있어야 하다. 만약 설치가 안되어 있다면 <a href="/2019/04/05/inkscape/#xquartz-%EC%84%A4%EC%B9%98">여기</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew cask install inkscape</span><br></pre></td></tr></table></figure></li><li><p>결과 </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">Updating Homebrew...</span><br><span class="line">Ignoring path homebrew-cask/</span><br><span class="line">To restore the stashed changes to /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask run:</span><br><span class="line">  &apos;cd /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask &amp;&amp; git stash pop&apos;</span><br><span class="line">==&gt; Auto-updated Homebrew!</span><br><span class="line">Updated 1 tap (homebrew/cask).</span><br><span class="line">No changes to formulae.</span><br><span class="line">==&gt; Satisfying dependencies</span><br><span class="line">==&gt; Downloading https://inkscape.org/gallery/item/11269/Inkscape-0.92.2-1-x11-10.7-x86_64.dmg</span><br><span class="line">==&gt; Downloading from https://media.inkscape.org/dl/resources/file/Inkscape-0.92.2-1-x11-10.7-x86_64.dmg</span><br><span class="line">######################################################################## 100.0%</span><br><span class="line">==&gt; Verifying SHA-256 checksum for Cask &apos;inkscape&apos;.</span><br><span class="line">==&gt; Installing Cask inkscape</span><br><span class="line">==&gt; Moving App &apos;Inkscape.app&apos; to &apos;/Applications/Inkscape.app&apos;.</span><br><span class="line">==&gt; Linking Binary &apos;inkscape&apos; to &apos;/usr/local/bin/inkscape&apos;.</span><br><span class="line">🍺  inkscape was successfully installed!</span><br></pre></td></tr></table></figure></li></ul><h2 id="xquartz-설치"><a href="#xquartz-설치" class="headerlink" title="xquartz 설치"></a>xquartz 설치</h2><p>혹시 이런 내용을 봤다면 해당 내용을 참고하세요.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Updating Homebrew...</span><br><span class="line">==&gt; Satisfying dependencies</span><br><span class="line">Error: Cask &apos;inkscape&apos; requires XQuartz/X11, which can be installed using Homebrew Cask by running</span><br><span class="line">  brew cask install xquartz</span><br></pre></td></tr></table></figure></p><ul><li><p>명령어</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew cask install xquartz</span><br></pre></td></tr></table></figure></li><li><p>결과</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">==&gt; Satisfying dependencies</span><br><span class="line">==&gt; Downloading https://dl.bintray.com/xquartz/downloads/XQuartz-2.7.11.dmg</span><br><span class="line">==&gt; Downloading from https://d29vzk4ow07wi7.cloudfront.net/32e50e8f1e21542b847041711039fa78d44febfed466f834a9281c44d75cd6c3?response-content-disposition=attachment%3Bfilename%3D%22XQuartz-2.7.11.dmg%22&amp;</span><br><span class="line">######################################################################## 100.0%</span><br><span class="line">==&gt; Verifying SHA-256 checksum for Cask &apos;xquartz&apos;.</span><br><span class="line">==&gt; Installing Cask xquartz</span><br><span class="line">==&gt; Running installer for xquartz; your password may be necessary.</span><br><span class="line">==&gt; Package installers may write to any location; options such as --appdir are ignored.</span><br><span class="line">Password: 비밀번호 입력</span><br><span class="line">installer: Package name is XQuartz 2.7.11</span><br><span class="line">installer: Installing at base path /</span><br><span class="line">installer: The install was successful.</span><br><span class="line">🍺  xquartz was successfully installed!</span><br></pre></td></tr></table></figure></li></ul><h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> os </category>
-          
-          <category> macos </category>
-          
-          <category> inkscape </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> inkscape </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Homebrew 리눅스 또는 맥OS 패키지 관리자</title>
-      <link href="/2019/04/03/homebrew/"/>
-      <url>/2019/04/03/homebrew/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/images/homebrew/001.png" alt="homebrew"></p><h1 id="Homebrew-설치"><a href="#Homebrew-설치" class="headerlink" title="Homebrew 설치"></a>Homebrew 설치</h1><p>Linux 시스템에서 제공하지 않는 유용한 패키지 관리자 <a href="https://brew.sh/index_ko" target="_blank" rel="noopener">Homebrew</a></p><p>&lt;! - more -&gt;</p><h2 id="요구사항"><a href="#요구사항" class="headerlink" title="요구사항"></a>요구사항</h2><ul><li>A 64-bit Intel CPU</li><li>macOS 10.12 (or higher)</li><li>Command Line Tools (CLT) for Xcode: xcode-select –install, developer.apple.com/downloads or Xcode </li><li>A Bourne-compatible shell for installation (e.g. bash or zsh)</li></ul><h2 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span><br></pre></td></tr></table></figure><h2 id="command-명령어-정리"><a href="#command-명령어-정리" class="headerlink" title="command 명령어 정리"></a>command 명령어 정리</h2><p>brew 를 입력하면 해당하는 여러 커맨드가 나열된다.<br>참고로 [FORMULA…] 는 공식 패키지 이름을 뜻한다.</p><h3 id="명령어-확인"><a href="#명령어-확인" class="headerlink" title="명령어 확인"></a>명령어 확인</h3><ul><li><p>명령어</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew</span><br></pre></td></tr></table></figure></li><li><p>결과</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">Example usage:</span><br><span class="line">  brew search [TEXT|/REGEX/]</span><br><span class="line">  brew info [FORMULA...]</span><br><span class="line">  brew install FORMULA...</span><br><span class="line">  brew update</span><br><span class="line">  brew upgrade [FORMULA...]</span><br><span class="line">  brew uninstall FORMULA...</span><br><span class="line">  brew list [FORMULA...]</span><br><span class="line"></span><br><span class="line">Troubleshooting:</span><br><span class="line">  brew config</span><br><span class="line">  brew doctor</span><br><span class="line">  brew install --verbose --debug FORMULA</span><br><span class="line"></span><br><span class="line">Contributing:</span><br><span class="line">  brew create [URL [--no-fetch]]</span><br><span class="line">  brew edit [FORMULA...]</span><br><span class="line"></span><br><span class="line">Further help:</span><br><span class="line">  brew commands</span><br><span class="line">  brew help [COMMAND]</span><br><span class="line">  man brew</span><br><span class="line">  https://docs.brew.sh</span><br></pre></td></tr></table></figure></li></ul><h3 id="버젼-확인"><a href="#버젼-확인" class="headerlink" title="버젼 확인"></a>버젼 확인</h3><ul><li><p>명령어</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew --version</span><br></pre></td></tr></table></figure></li><li><p>결과</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Homebrew 2.0.5</span><br><span class="line">Homebrew/homebrew-core (git revision 49038a; last commit 2019-03-25)</span><br><span class="line">Homebrew/homebrew-cask (git revision 66288; last commit 2019-03-25)</span><br></pre></td></tr></table></figure></li></ul><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://docs.brew.sh/Installation" target="_blank" rel="noopener">homebrew-installation</a></li><li><a href="https://docs.brew.sh/Manpage" target="_blank" rel="noopener">homebrew-manpage</a> dd</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> devops </category>
-          
-          <category> homebrew </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> homebrew </tag>
-            
-            <tag> homebrew-install </tag>
-            
-            <tag> homebrew-command </tag>
-            
-            <tag> linux-package-manager </tag>
-            
-            <tag> macos-package-manager </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>macos-postgresql</title>
-      <link href="/2019/04/03/macos-postgresql/"/>
-      <url>/2019/04/03/macos-postgresql/</url>
-      
-        <content type="html"><![CDATA[<h3 id="macOS-PostgreSQL-설치"><a href="#macOS-PostgreSQL-설치" class="headerlink" title="macOS PostgreSQL 설치"></a>macOS PostgreSQL 설치</h3><p>macOS 에 PostgreSQL 설치 ( homebrew 사용 )</p><p>참조 : </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> os </category>
-          
-          <category> macos </category>
-          
-          <category> postgresql </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> postgresql </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ubuntu-config</title>
-      <link href="/2019/03/24/ubuntu-config/"/>
-      <url>/2019/03/24/ubuntu-config/</url>
-      
-        <content type="html"><![CDATA[<h1 id="우분투-설치화면"><a href="#우분투-설치화면" class="headerlink" title="우분투 설치화면"></a>우분투 설치화면</h1><h3 id="설치형식"><a href="#설치형식" class="headerlink" title="설치형식"></a>설치형식</h3><p>디스크를 지우고 Ubuntu를 설치 [지금설치] 클릭<br><img src="/images/ubuntu_config/001.png" alt="install-001"></p><h3 id="설치형식-적용-확인"><a href="#설치형식-적용-확인" class="headerlink" title="설치형식 적용 확인"></a>설치형식 적용 확인</h3><p>해당사항 적용여부를 묻는 화면 [계속하기] 클릭<br><img src="/images/ubuntu_config/002.png" alt="install-002"></p><h3 id="거주지역-선택"><a href="#거주지역-선택" class="headerlink" title="거주지역 선택"></a>거주지역 선택</h3><p>Seoul 선택  [계속하기] 클릭<br><img src="/images/ubuntu_config/003.png" alt="install-003"></p><h3 id="설치진행-화면"><a href="#설치진행-화면" class="headerlink" title="설치진행 화면"></a>설치진행 화면</h3><p><img src="/images/ubuntu_config/004.png" alt="install-004"></p><h3 id="설치완료-및-재구동안내"><a href="#설치완료-및-재구동안내" class="headerlink" title="설치완료 및 재구동안내"></a>설치완료 및 재구동안내</h3><p>설치완료 [지금 다시 시작] 클릭<br><img src="/images/ubuntu_config/005.png" alt="install-005"></p><h3 id="재구동-화면"><a href="#재구동-화면" class="headerlink" title="재구동 화면"></a>재구동 화면</h3><p><img src="/images/ubuntu_config/006.png" alt="install-006"></p><h3 id="업데이트-안내-설치-진행"><a href="#업데이트-안내-설치-진행" class="headerlink" title="업데이트 안내 설치 진행"></a>업데이트 안내 설치 진행</h3><p><img src="/images/ubuntu_config/007.png" alt="install-007"></p><h3 id="업데이트-완료"><a href="#업데이트-완료" class="headerlink" title="업데이트 완료"></a>업데이트 완료</h3><p><img src="/images/ubuntu_config/008.png" alt="install-008"></p><h2 id="VirtualBox-사용시-전체화면-허용"><a href="#VirtualBox-사용시-전체화면-허용" class="headerlink" title="VirtualBox 사용시 전체화면 허용"></a>VirtualBox 사용시 전체화면 허용</h2><h3 id="VirtualBox"><a href="#VirtualBox" class="headerlink" title="VirtualBox"></a>VirtualBox</h3><p>ubuntu 를 띄운 상태에서 VirtualBox 진행<br>menu - Devices - Insert Guest Additions CD images.. 클릭<br><img src="/images/ubuntu_config/009.png" alt="install-009"></p><h3 id="Guest-Additions-CD-images-적용완료-화면"><a href="#Guest-Additions-CD-images-적용완료-화면" class="headerlink" title="Guest Additions CD images 적용완료 화면"></a>Guest Additions CD images 적용완료 화면</h3><p><img src="/images/ubuntu_config/010.png" alt="install-010"></p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> os </category>
-          
-          <category> linux </category>
-          
-          <category> ubuntu </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> linux </tag>
-            
-            <tag> ubuntu </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>web-security</title>
-      <link href="/2019/03/13/web-security/"/>
-      <url>/2019/03/13/web-security/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/images/web_security/001.png" alt="observatory"></p><h1 id="Mozilla-Observatory"><a href="#Mozilla-Observatory" class="headerlink" title="Mozilla Observatory"></a>Mozilla Observatory</h1><p>웹사이트 보안 스캔 후 피드백 해주는 사이트 <a href="https://observatory.mozilla.org" target="_blank" rel="noopener">observatory</a></p><h2 id="보안-검증을-원하는-사이트-스캔"><a href="#보안-검증을-원하는-사이트-스캔" class="headerlink" title="보안 검증을 원하는 사이트 스캔"></a>보안 검증을 원하는 사이트 스캔</h2><p><a href="/images/web_security/002.png">main</a></p><ul><li>Don’t include my site in the public results<br>검색하는 사이트를 공개 목록에 공유하기 싫으면 선택하세요.</li><li>Force a rescan instead of returning cached results<br>24시간내에 캐시된 결과가 아닌 강제로 새로 검색 하려면 선택하세요.</li><li>Don’t scan with third-party scanners<br>Mozilla Observatory 외에 타사에서 제공하는 스캔기능을 사용하지 않으려면 선택하세요.</li></ul><ol><li>enter domain name here 란에 자사 사이트 또는 개인 사이트 입력 </li><li>Scan Me 클릭 </li></ol><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://observatory.mozilla.org" target="_blank" rel="noopener">observatory</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> web-development </category>
-          
-          <category> web-security </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> web-security </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>virtualbox-install-ubuntu</title>
-      <link href="/2019/03/04/virtualbox-install-ubuntu/"/>
-      <url>/2019/03/04/virtualbox-install-ubuntu/</url>
-      
-        <content type="html"><![CDATA[<ol><li>VirtualBox 설치</li><li>Download Ubuntu ISO</li><li>BIOS 에서 Virtualization option 이 enabled 되어있는지 확인</li><li>VirtualBox 로 Ubuntu 설치 (설치방법은 검색하면 나옴)</li><li>필수 Ubuntu package 설치<br><code>sudo apt-get install build-essential</code></li><li>Ubuntu 띄워진 상태에서 메뉴의 Insert Guest Additions 클릭하여 설치</li><li>재부팅시 화면이 Full Screen 으로 돌아가는지 확인</li><li>VirtualBox 의 Setting 에서 Disk Size, CPU, RAM (memory size) 등 조정</li><li>VirtualBox 의 Setting 에서 Shared Clipboard, Drag &amp; Drop 을 bidirectional 으로 설정</li></ol><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> os </category>
-          
-          <category> macos </category>
-          
-          <category> ubuntu </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> ubuntu </tag>
-            
-            <tag> virtualbox </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>PostgREST</title>
-      <link href="/2019/03/04/postgrest/"/>
-      <url>/2019/03/04/postgrest/</url>
-      
-        <content type="html"><![CDATA[<h1 id="PostgREST"><a href="#PostgREST" class="headerlink" title="PostgREST"></a>PostgREST</h1><p>PostgREST는 PostgreSQL 데이터베이스를 RESTful API로 직접 변환하는 독립형 웹 서버. <a href="http://postgrest.org" target="_blank" rel="noopener">postgres</a></p><h2 id="Query"><a href="#Query" class="headerlink" title="Query"></a>Query</h2><ul><li><p>예시</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET http://postgrest.example.com/member?id=eq.1</span><br></pre></td></tr></table></figure></li><li><p>설명<br>앞에 HTTP METHOD , Postgrest URI, 테이블명 , 조건으로 설명.</p></li></ul><table><thead><tr><th style="text-align:left">GET</th><th style="text-align:left"><a href="http://postgrest.example.com/" target="_blank" rel="noopener">http://postgrest.example.com/</a></th><th style="text-align:center">member</th><th style="text-align:center">?id=eq.1</th></tr></thead><tbody><tr><td style="text-align:left">Verb (HTTP METHOD)</td><td style="text-align:left">RESOURCE (URI)</td><td style="text-align:center">Representation 1</td><td style="text-align:center">Representation 2</td></tr><tr><td style="text-align:left">GET, POST, PUT, DELETE</td><td style="text-align:left">PostgREST 운영중인 URI</td><td style="text-align:center">테이블명</td><td style="text-align:center">조건</td></tr></tbody></table><h3 id="where"><a href="#where" class="headerlink" title="where"></a>where</h3><h3 id="select"><a href="#select" class="headerlink" title="select"></a>select</h3><p>예를 들어서 컬럼을 구별에서 뽑고 싶으면 select=컬럼1,컬럼2를 쿼리로 주면 된다.<br>이때 따로 명시를 안하면 모두 * (asterisk)으로 표현되서 가져온다.</p><ul><li>예시<br>member 테이블에서 id가 1인 id 와 name 컬럼을 가져와라 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET http://postgrest.example.com/member?select=id,name&amp;id=eq.1</span><br></pre></td></tr></table></figure></li></ul><h3 id="count"><a href="#count" class="headerlink" title="count"></a>count</h3><p>select=count.*</p><ul><li>예시<br>member 테이블에서 id가 1인 데이터 수를 가져와라<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET http://postgrest.example.com/member?select=count.*&amp;id=eq.1</span><br></pre></td></tr></table></figure></li></ul><h3 id="in"><a href="#in" class="headerlink" title="in"></a>in</h3><p>?id=in.(1,2,3)</p><ul><li>예시<br>member 테이블에서 id가 1,2,3 인 데이터를 가져와라<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET http://postgrest.example.com/member?id=in.(1,2,3)</span><br></pre></td></tr></table></figure></li></ul><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol><li>PostgREST 커스텀 쿼리 : <a href="http://postgrest.org/en/v5.2/api.html#custom-queries" target="_blank" rel="noopener">http://postgrest.org/en/v5.2/api.html#custom-queries</a></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> database </category>
-          
-          <category> postgresql </category>
-          
-          <category> postgrest </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> postgrest </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Linux 명령어 정리</title>
-      <link href="/2018/12/06/linux-command/"/>
-      <url>/2018/12/06/linux-command/</url>
-      
-        <content type="html"><![CDATA[<h3 id="프로세스별-메모리-사용량-표시"><a href="#프로세스별-메모리-사용량-표시" class="headerlink" title="프로세스별 메모리 사용량 표시"></a>프로세스별 메모리 사용량 표시</h3><p>ps -eo user,pid,ppid,rss,size,vsize,pmem,pcpu,time,cmd –sort -rss | head -n 11</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> os </category>
-          
-          <category> linux </category>
-          
-          <category> command </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>redis-cli</title>
-      <link href="/2018/11/28/redis-cli/"/>
-      <url>/2018/11/28/redis-cli/</url>
-      
-        <content type="html"><![CDATA[<p>redis-cli -h HOST_NAME -p PORT_NUMBER hgetall SESSION_ID</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> database </category>
-          
-          <category> redis </category>
-          
-          <category> redis-cli </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> redis-cli </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>google-developers</title>
-      <link href="/2018/10/18/google-developers/"/>
-      <url>/2018/10/18/google-developers/</url>
-      
-        <content type="html"><![CDATA[<p>구글 개발자 도구 프로그램 관련 포스트 입니다.</p><h2 id="목차"><a href="#목차" class="headerlink" title="목차"></a>목차</h2><ol><li><a href="#pagespeed">구글 웹페이지 속도 측정</a></li></ol><h3 id="pagespeed"><a href="#pagespeed" class="headerlink" title="pagespeed"></a>pagespeed</h3><ol><li><p>구글 웹페이지 속도 측정<br>웹페이지 속도 측정을 도와주고 개선사항을 알려주는 도구</p><p><a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="noopener">PageSpeed Tools</a></p></li></ol><h3 id="google-chart"><a href="#google-chart" class="headerlink" title="google chart"></a>google chart</h3>]]></content>
-      
-      
-      <categories>
-          
-          <category> devops </category>
-          
-          <category> google-developers </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> google-developers </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Node.js</title>
-      <link href="/2018/10/13/nodejs/"/>
-      <url>/2018/10/13/nodejs/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> nodejs </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> nodejs </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>golang</title>
-      <link href="/2018/10/10/golang/"/>
-      <url>/2018/10/10/golang/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/images/golang/001.png" alt="doc"></p><h1 id="Go-프로그래밍-언어"><a href="#Go-프로그래밍-언어" class="headerlink" title="Go 프로그래밍 언어"></a>Go 프로그래밍 언어</h1><p>Go는 표현력 있고, 간결하며, 깨끗하고 효율적입니다. 동시성 메커니즘을 통해 멀티 코어 및 네트워크 컴퓨터를 최대한 활용하는 프로그램을 쉽게 작성할 수 있으며 소설 유형 시스템은 유연하고 모듈 식 프로그램 구성을 가능하게합니다. Go는 기계 코드로 빠르게 컴파일되지만 가비지 수집의 편의성과 런타임 반영 기능을 제공합니다. 이것은 동적으로 타이핑되고 해석되는 언어처럼 느껴지고 정적으로 타이핑되고 컴파일 된 언어입니다. <a href="https://golang.org/" target="_blank" rel="noopener">golang</a></p><h1 id="Go-설치"><a href="#Go-설치" class="headerlink" title="Go 설치"></a>Go 설치</h1><p>macOS 에서 homebrew 를 사용해서 설치하려고 한다. 만약 homebrew가 설치되어 있지 않다면 <a href="/2019/04/03/homebrew/#Homebrew-설치">여기</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> programming-language </category>
-          
-          <category> golang </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> golang </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>웹개발자가 알면 좋은 개발용어 정리</title>
-      <link href="/2018/09/16/glossary/"/>
-      <url>/2018/09/16/glossary/</url>
-      
-        <content type="html"><![CDATA[<h1 id="개발용어-정리"><a href="#개발용어-정리" class="headerlink" title="개발용어 정리"></a>개발용어 정리</h1><p>개발용어 정리 페이지 </p><h2 id="A"><a href="#A" class="headerlink" title="A"></a>A</h2><h3 id="API"><a href="#API" class="headerlink" title="API"></a>API</h3><p>Application Programming Interface의 약자</p><h3 id="AWS"><a href="#AWS" class="headerlink" title="AWS"></a>AWS</h3><p>Amazon Web Services </p><h2 id="B"><a href="#B" class="headerlink" title="B"></a>B</h2><h3 id="Bourne-shell"><a href="#Bourne-shell" class="headerlink" title="Bourne shell"></a>Bourne shell</h3><p>본 쉘 Bourne shell, sh</p><ol><li>유닉스 버전 7의 기본 쉘</li><li></li><li></li></ol><h3 id="Bash"><a href="#Bash" class="headerlink" title="Bash"></a>Bash</h3><p>배시 은 본 셸을 대체하는 자유 소프트웨어로서 GNU 프로젝트를 위해 브라이언 폭스가 작성한 유닉스 셸이다</p><h3 id="Back-End"><a href="#Back-End" class="headerlink" title="Back-End"></a>Back-End</h3><p>백엔드 </p><h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><h3 id="Cloud"><a href="#Cloud" class="headerlink" title="Cloud"></a>Cloud</h3><p>클라우드 </p><h2 id="D"><a href="#D" class="headerlink" title="D"></a>D</h2><h3 id="DevOps"><a href="#DevOps" class="headerlink" title="DevOps"></a>DevOps</h3><p>데브옵스란 </p><h3 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h3><h2 id="E"><a href="#E" class="headerlink" title="E"></a>E</h2><h3 id="ELK-Stack"><a href="#ELK-Stack" class="headerlink" title="ELK Stack"></a>ELK Stack</h3><h2 id="F"><a href="#F" class="headerlink" title="F"></a>F</h2><h3 id="Front-End"><a href="#Front-End" class="headerlink" title="Front-End"></a>Front-End</h3><p>프론트엔드 </p><h2 id="G"><a href="#G" class="headerlink" title="G"></a>G</h2><h3 id="GNU"><a href="#GNU" class="headerlink" title="GNU"></a>GNU</h3><p>GNU’s Not Unix의 약어 앞에 GNU 사용함으로 재귀적 약자라고 한다.</p><h2 id="H"><a href="#H" class="headerlink" title="H"></a>H</h2><h2 id="I"><a href="#I" class="headerlink" title="I"></a>I</h2><h3 id="IIFE"><a href="#IIFE" class="headerlink" title="IIFE"></a>IIFE</h3><p>IIFE (Immediately Invoked Function Expression)<br>즉시 실행 함수 표현은 정의되자마자 즉시 실행되는 Javascript Function<br>이는 Self-Executing Anonymous Function 으로 알려진 디자인 패턴이고 크게 두 부분으로 구성된다.<br>첫 번째는 괄호((), Grouping Operator)로 둘러싸인 익명함수(Anonymous Function)</p><ul><li><p>예제 1</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(function () &#123; </span><br><span class="line">    var aName = &quot;pcm9881&quot;;</span><br><span class="line">&#125;)();</span><br><span class="line">// IIFE 내부에서 정의된 변수는 외부 범위에서 접근이 불가</span><br><span class="line">aName // throws &quot;Uncaught ReferenceError: aName is not defined&quot;</span><br></pre></td></tr></table></figure></li><li><p>예제 2</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var result = (function () &#123; </span><br><span class="line">  var name = &quot;pcm9881&quot;; </span><br><span class="line">  return name; </span><br><span class="line">&#125;)(); </span><br><span class="line">// 즉시 결과를 생성</span><br><span class="line">result; // &quot;pcm9881&quot;</span><br></pre></td></tr></table></figure></li></ul><p>예제 2번을 보면 IIFE를 변수에 할당하면 IIFE 자체는 저장되지 않고, 함수가 실행된 결과만 저장</p><ul><li>참조 : <a href="https://developer.mozilla.org/ko/docs/Glossary/IIFE" target="_blank" rel="noopener">MDN 웹 문서</a></li></ul><h2 id="J"><a href="#J" class="headerlink" title="J"></a>J</h2><h2 id="K"><a href="#K" class="headerlink" title="K"></a>K</h2><h2 id="L"><a href="#L" class="headerlink" title="L"></a>L</h2><h2 id="M"><a href="#M" class="headerlink" title="M"></a>M</h2><h3 id="MongoDB"><a href="#MongoDB" class="headerlink" title="MongoDB"></a>MongoDB</h3><h2 id="N"><a href="#N" class="headerlink" title="N"></a>N</h2><h3 id="Nginx"><a href="#Nginx" class="headerlink" title="Nginx"></a>Nginx</h3><h3 id="NOSQL"><a href="#NOSQL" class="headerlink" title="NOSQL"></a>NOSQL</h3><h2 id="O"><a href="#O" class="headerlink" title="O"></a>O</h2><h3 id="Oh-My-Zsh"><a href="#Oh-My-Zsh" class="headerlink" title="Oh-My-Zsh"></a>Oh-My-Zsh</h3><p>Zsh의 설정을 관리하는 프레임워크 </p><h2 id="P"><a href="#P" class="headerlink" title="P"></a>P</h2><h2 id="Q"><a href="#Q" class="headerlink" title="Q"></a>Q</h2><h2 id="R"><a href="#R" class="headerlink" title="R"></a>R</h2><h3 id="Runtime"><a href="#Runtime" class="headerlink" title="Runtime"></a>Runtime</h3><p>runtime  런타임</p><h3 id="RESTFul"><a href="#RESTFul" class="headerlink" title="RESTFul"></a>RESTFul</h3><h2 id="S"><a href="#S" class="headerlink" title="S"></a>S</h2><h3 id="SPA"><a href="#SPA" class="headerlink" title="SPA"></a>SPA</h3><p>SPA (Single Page Applications) 싱글 페이지 애플리케이션 서버로부터 완전한 새로운 페이지를 불러오지 않고 현재의</p><h2 id="T"><a href="#T" class="headerlink" title="T"></a>T</h2><h3 id="TDD"><a href="#TDD" class="headerlink" title="TDD"></a>TDD</h3><h2 id="U"><a href="#U" class="headerlink" title="U"></a>U</h2><h3 id="UI"><a href="#UI" class="headerlink" title="UI"></a>UI</h3><h2 id="W"><a href="#W" class="headerlink" title="W"></a>W</h2><h3 id="WWW"><a href="#WWW" class="headerlink" title="WWW"></a>WWW</h3><p>world wild web</p><h2 id="X"><a href="#X" class="headerlink" title="X"></a>X</h2><h2 id="Y"><a href="#Y" class="headerlink" title="Y"></a>Y</h2><h2 id="Z"><a href="#Z" class="headerlink" title="Z"></a>Z</h2><h3 id="Zsh"><a href="#Zsh" class="headerlink" title="Zsh"></a>Zsh</h3><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> web-development </category>
-          
-          <category> glossary </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> web-development </tag>
-            
-            <tag> glossary </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Git 프로젝트 형상관리 오픈소스</title>
-      <link href="/2018/08/28/git/"/>
-      <url>/2018/08/28/git/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/images/git/001.png" alt="git"></p><h1 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h1><p>빠르고 효율적인 프로젝트 형상관리를 위한 오픈소스 <a href="https://git-scm.com/" target="_blank" rel="noopener">git</a></p><h2 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h2><h2 id="자주-사용하는-git-command-정리"><a href="#자주-사용하는-git-command-정리" class="headerlink" title="자주 사용하는 git command 정리"></a>자주 사용하는 git command 정리</h2><ol><li>git command 종류</li><li>사용 예제</li></ol><h3 id="Setup-and-Config-관련"><a href="#Setup-and-Config-관련" class="headerlink" title="Setup and Config 관련"></a>Setup and Config 관련</h3><h4 id="config"><a href="#config" class="headerlink" title="config"></a>config</h4><h5 id="config-전체-확인"><a href="#config-전체-확인" class="headerlink" title="config 전체 확인"></a>config 전체 확인</h5><p>git 설정내용 확인하는 명령어<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure></p><h5 id="config-local-셋팅"><a href="#config-local-셋팅" class="headerlink" title="config local 셋팅"></a>config local 셋팅</h5><p>git 현재 config 셋팅<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name &quot;name&quot;</span><br><span class="line">git config user.email &quot;email&quot;</span><br></pre></td></tr></table></figure></p><h5 id="config-global-셋팅"><a href="#config-global-셋팅" class="headerlink" title="config global 셋팅"></a>config global 셋팅</h5><p>git 전체 config 셋팅<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;name&quot;</span><br><span class="line">git config --global user.email &quot;email&quot;</span><br></pre></td></tr></table></figure></p><h3 id="Basic-Snapshotting-관련"><a href="#Basic-Snapshotting-관련" class="headerlink" title="Basic Snapshotting 관련"></a>Basic Snapshotting 관련</h3><h4 id="add"><a href="#add" class="headerlink" title="add"></a>add</h4><p>git 현재 commit 할 내용을 추가<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add &lt;file&gt;</span><br></pre></td></tr></table></figure></p><h4 id="git-commit"><a href="#git-commit" class="headerlink" title="git commit"></a>git commit</h4><h3 id="git-reset"><a href="#git-reset" class="headerlink" title="git reset"></a>git reset</h3><h3 id="git-merge"><a href="#git-merge" class="headerlink" title="git merge"></a>git merge</h3><h3 id="git-fetch"><a href="#git-fetch" class="headerlink" title="git fetch"></a>git fetch</h3><h3 id="git"><a href="#git" class="headerlink" title="git"></a>git</h3><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://git-scm.com/docs" target="_blank" rel="noopener">git-docs</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> devops </category>
-          
-          <category> git </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> git </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>hexo github-pages blog</title>
-      <link href="/2018/08/13/hexo-github-page-blog/"/>
-      <url>/2018/08/13/hexo-github-page-blog/</url>
-      
-        <content type="html"><![CDATA[<h2 id="hexo를-통해서-gitHub-pages-blog-만들기"><a href="#hexo를-통해서-gitHub-pages-blog-만들기" class="headerlink" title="hexo를 통해서 gitHub pages blog 만들기"></a>hexo를 통해서 gitHub pages blog 만들기</h2><ol><li>github 가입</li><li>hexo 설명</li><li>hexo 설치</li></ol><h3 id="GitHub-가입하기"><a href="#GitHub-가입하기" class="headerlink" title="GitHub 가입하기"></a>GitHub 가입하기</h3><h3 id="GitHub-가입하기-1"><a href="#GitHub-가입하기-1" class="headerlink" title="GitHub 가입하기"></a>GitHub 가입하기</h3><h3 id="GitHub-가입하기-2"><a href="#GitHub-가입하기-2" class="headerlink" title="GitHub 가입하기"></a>GitHub 가입하기</h3><h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul><li><a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a></li><li><a href="https://hexo.io/" target="_blank" rel="noopener">HEXO</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> blog </category>
-          
-          <category> hexo </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-            <tag> github-pages </tag>
+            <tag> HTML5 </tag>
             
         </tags>
       
